@@ -1,0 +1,93 @@
+[
+  {
+    "id": "mintransporte",
+    "ministerio": "Ministerio de Transporte",
+    "sector": "Infraestructura vial",
+    "base_legal": "Decreto 1625/2016 art. 1.6.5.2.3 (mod. Decreto 647/2018)",
+    "estado": "Por decreto"
+  },
+  {
+    "id": "mineducacion",
+    "ministerio": "Ministerio de Educación Nacional",
+    "sector": "Educación pública",
+    "base_legal": "Decreto 1625/2016 art. 1.6.5.2.3 (mod. Decreto 647/2018)",
+    "estado": "Por decreto"
+  },
+  {
+    "id": "mintrabajo",
+    "ministerio": "Ministerio del Trabajo",
+    "sector": "Formación para el trabajo",
+    "base_legal": "Decreto 1625/2016 art. 1.6.5.2.3 (mod. Decreto 647/2018)",
+    "estado": "Por decreto"
+  },
+  {
+    "id": "minsalud",
+    "ministerio": "Ministerio de Salud y Protección Social",
+    "sector": "Salud pública",
+    "base_legal": "Decreto 1625/2016 art. 1.6.5.2.3 (mod. Decreto 647/2018)",
+    "estado": "Por decreto"
+  },
+  {
+    "id": "minvivienda",
+    "ministerio": "Ministerio de Vivienda, Ciudad y Territorio",
+    "sector": "Agua potable y saneamiento básico",
+    "base_legal": "Decreto 1625/2016 art. 1.6.5.2.3 (mod. Decreto 647/2018)",
+    "estado": "Por decreto"
+  },
+  {
+    "id": "minagricultura",
+    "ministerio": "Ministerio de Agricultura y Desarrollo Rural",
+    "sector": "Agua potable y alcantarillado rural",
+    "base_legal": "Decreto 1625/2016 art. 1.6.5.2.3 (mod. Decreto 647/2018)",
+    "estado": "Por decreto"
+  },
+  {
+    "id": "minenergia",
+    "ministerio": "Ministerio de Minas y Energía",
+    "sector": "Energía",
+    "base_legal": "Decreto 1625/2016 art. 1.6.5.2.3 (mod. Decreto 647/2018)",
+    "estado": "Por decreto"
+  },
+  {
+    "id": "icbf",
+    "ministerio": "Instituto Colombiano de Bienestar Familiar (ICBF)",
+    "sector": "Primera infancia",
+    "base_legal": "Línea \"Educación - ICBF\" en la base de resultados de la ART",
+    "estado": "En datos ART"
+  },
+  {
+    "id": "mintic",
+    "ministerio": "Ministerio de Tecnologías de la Información y las Comunicaciones",
+    "sector": "TIC",
+    "base_legal": "Decreto 1147/2020; línea TIC en la base de resultados de la ART",
+    "estado": "En datos ART"
+  },
+  {
+    "id": "mindeporte",
+    "ministerio": "Ministerio del Deporte",
+    "sector": "Deporte",
+    "base_legal": "Decreto 1625/2016 compilado; línea Deporte en la base de resultados de la ART",
+    "estado": "En datos ART"
+  },
+  {
+    "id": "ungrd",
+    "ministerio": "Unidad Nacional para la Gestión del Riesgo de Desastres (entidad supuesta)",
+    "sector": "Gestión del riesgo",
+    "base_legal": "Línea en la base de resultados de la ART; entidad competente sin confirmar",
+    "estado": "Por verificar"
+  },
+  {
+    "id": "minambiente",
+    "ministerio": "Ministerio de Ambiente y Desarrollo Sostenible (entidad supuesta)",
+    "sector": "Pagos por servicios ambientales; adaptación al cambio climático",
+    "base_legal": "Línea en la base de resultados de la ART; entidad competente sin confirmar",
+    "estado": "Por verificar"
+  },
+  {
+    "id": "mincultura",
+    "ministerio": "Ministerio de las Culturas, las Artes y los Saberes",
+    "sector": "Infraestructura cultural",
+    "base_legal": "Manual Operativo ART (opción convenio); línea Infraestructura cultural en el listado de trámite 2026",
+    "estado": "En datos ART"
+  }
+]

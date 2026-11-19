@@ -1,0 +1,14 @@
+[
+{"clave":"proyectos_2018_2025","indicador":"Proyectos aprobados","valor":527,"unidad":"proyectos","cota":"","periodo":"2018–2025","fuente":"El Espectador"},
+{"clave":"valor_2018_2025","indicador":"Valor de los proyectos","valor":4000000000000,"unidad":"COP","cota":"más de","periodo":"2018–2025","fuente":"El Espectador"},
+{"clave":"proyectos_2023_2026","indicador":"Proyectos financiados","valor":387,"unidad":"proyectos","cota":"","periodo":"2023–2026","fuente":"ART vía Semana/Portafolio"},
+{"clave":"valor_2023_2026","indicador":"Valor financiado","valor":3100000000000,"unidad":"COP","cota":"más de","periodo":"2023–2026","fuente":"ART vía Semana/Portafolio"},
+{"clave":"corte1_2025_proyectos","indicador":"Proyectos viabilizados, primer corte","valor":137,"unidad":"proyectos","cota":"","periodo":"2025","fuente":"ART vía Portafolio"},
+{"clave":"corte1_2025_valor","indicador":"Valor viabilizado, primer corte","valor":1600000000000,"unidad":"COP","cota":"cerca de","periodo":"2025","fuente":"ART vía Portafolio"},
+{"clave":"mintransporte_banco_proyectos","indicador":"Proyectos viales en el banco de la ART","valor":69,"unidad":"proyectos","cota":"","periodo":"Marzo 2025","fuente":"MinTransporte"},
+{"clave":"mintransporte_banco_valor","indicador":"Valor de proyectos viales en el banco","valor":1000000000000,"unidad":"COP","cota":"más de","periodo":"Marzo 2025","fuente":"MinTransporte"},
+{"clave":"edu_proyectos","indicador":"Proyectos de educación","valor":144,"unidad":"proyectos","cota":"","periodo":"2023–2025","fuente":"MinEducación"},
+{"clave":"edu_valor","indicador":"Inversión en educación (titular)","valor":860000000000,"unidad":"COP","cota":"más de","periodo":"2023–2025","fuente":"MinEducación"},
+{"clave":"edu_municipios","indicador":"Municipios con proyectos de educación","valor":150,"unidad":"municipios","cota":"más de","periodo":"2023–2025","fuente":"MinEducación"},
+{"clave":"edu_departamentos","indicador":"Departamentos con proyectos de educación","valor":25,"unidad":"departamentos","cota":"","periodo":"2023–2025","fuente":"MinEducación"}
+]
