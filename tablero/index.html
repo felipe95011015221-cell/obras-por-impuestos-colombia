@@ -1,0 +1,1682 @@
+<meta name="dash-one-writer">
+<link rel="stylesheet" href="estilos.css">
+
+<div class="ox" lang="es">
+  <header class="ox-head" id="resumen">
+    <p class="ox-eyebrow">Investigación · Obras por Impuestos · Colombia</p>
+    <h1>Obras por Impuestos Colombia</h1>
+    <p class="ox-take">Entre 2018 y 2025 se aprobaron <b data-draw="kpi" data-source="resumen_proyectos" data-field="proyectos" data-row="0" class="dash-skeleton">—</b> proyectos por <b data-draw="kpi" data-fmt="cop" data-source="resumen_proyectos" data-field="valor" data-row="0" class="dash-skeleton">—</b>. Educación concentra el <b data-draw="kpi" data-fmt="pct" data-source="resumen_proyectos" data-field="edu_share" data-row="0" class="dash-skeleton">—</b> del valor, y el valor aprobado en 2025 fue <b data-draw="kpi" data-fmt="x" data-source="resumen_proyectos" data-field="crecimiento" data-row="0" class="dash-skeleton">—</b> veces el de 2018. En el trámite de 2026 hay <b data-draw="kpi" data-source="resumen_tramite" data-field="proyectos" data-row="0" class="dash-skeleton">—</b> proyectos más, pero el <b data-draw="kpi" data-fmt="pct" data-source="resumen_tramite" data-field="pct_devueltos" data-row="0" class="dash-skeleton">—</b> fue devuelto por el ministerio con observaciones. En el DNP solo <b data-draw="kpi" data-source="resumen_ejecucion" data-field="terminadas" data-row="0" class="dash-skeleton">—</b> obras aparecen terminadas y <b data-draw="kpi" data-source="resumen_ejecucion" data-field="vencidos" data-row="0" class="dash-skeleton">—</b> siguen en ejecución con el plazo vencido.</p>
+    <div class="ox-hero-stats">
+      <div><span class="ox-hs-k">Obras terminadas</span><b data-draw="kpi" data-source="resumen_ejecucion" data-field="terminadas" data-row="0" class="dash-skeleton">—</b><span class="ox-hs-s">según el DNP</span></div>
+      <div><span class="ox-hs-k">Con plazo vencido</span><b data-draw="kpi" data-source="resumen_ejecucion" data-field="vencidos" data-row="0" class="dash-skeleton">—</b><span class="ox-hs-s">siguen en ejecución</span></div>
+      <div><span class="ox-hs-k">Alerta crítica</span><b data-draw="kpi" data-source="resumen_vencidos" data-field="criticos" data-row="0" class="dash-skeleton">—</b><span class="ox-hs-s">sin ningún avance</span></div>
+      <div><span class="ox-hs-k">En trámite 2026</span><b data-draw="kpi" data-source="resumen_tramite" data-field="proyectos" data-row="0" class="dash-skeleton">—</b><span class="ox-hs-s">proyectos nuevos</span></div>
+    </div>
+  </header>
+
+  <section class="ox-tiles" id="cifras-clave" aria-label="Cifras clave">
+    <div class="ox-tile">
+      <p class="ox-tile-k">Proyectos aprobados · 2018–2025</p>
+      <p class="ox-tile-v"><span data-draw="kpi" data-source="resumen_proyectos" data-field="proyectos" data-row="0" class="dash-skeleton">—</span></p>
+      <p class="ox-tile-s">Base de resultados de la ART</p>
+    </div>
+    <div class="ox-tile">
+      <p class="ox-tile-k">Valor aprobado · 2018–2025</p>
+      <p class="ox-tile-v"><span data-draw="kpi" data-fmt="cop" data-source="resumen_proyectos" data-field="valor" data-row="0" class="dash-skeleton">—</span></p>
+      <p class="ox-tile-s">Pesos corrientes</p>
+    </div>
+    <div class="ox-tile">
+      <p class="ox-tile-k">Empresas contribuyentes</p>
+      <p class="ox-tile-v"><span data-draw="kpi" data-source="resumen_proyectos" data-field="empresas" data-row="0" class="dash-skeleton">—</span></p>
+      <p class="ox-tile-s">Distintas, según el nombre reportado</p>
+    </div>
+    <div class="ox-tile">
+      <p class="ox-tile-k">Municipios con proyectos</p>
+      <p class="ox-tile-v"><span data-draw="kpi" data-source="resumen_proyectos" data-field="municipios" data-row="0" class="dash-skeleton">—</span></p>
+      <p class="ox-tile-s">PDET y ZOMAC</p>
+    </div>
+    <div class="ox-tile">
+      <p class="ox-tile-k">Cupo CONFIS · vigencia 2026</p>
+      <p class="ox-tile-v"><span data-draw="kpi" data-fmt="cop" data-source="cupo_2026" data-field="total" data-row="0" class="dash-skeleton">—</span></p>
+      <p class="ox-tile-s">Fiducia más convenio</p>
+    </div>
+    <div class="ox-tile">
+      <p class="ox-tile-k">En trámite · corte 3 jul 2026</p>
+      <p class="ox-tile-v"><span data-draw="kpi" data-source="resumen_tramite" data-field="proyectos" data-row="0" class="dash-skeleton">—</span></p>
+      <p class="ox-tile-s"><span data-draw="kpi" data-source="resumen_tramite" data-field="registrados" data-row="0">—</span> ya financiables</p>
+    </div>
+  </section>
+
+  <section class="ox-sec" id="proyectos">
+    <h2>Proyectos aprobados 2018–2025</h2>
+    <p class="ox-lede">Cada fila de la base oficial de la ART es un proyecto aprobado, con su ministerio, municipio y empresa. Filtra aquí o haz clic en una barra para enfocar todos los gráficos y la tabla.</p>
+    <div class="ox-filters" id="filtros-proyectos">
+      <label class="ox-field" for="f-anio">Año
+        <select id="f-anio" data-draw="f-anio" data-source="proyectos"></select>
+      </label>
+      <label class="ox-field" for="f-min">Ministerio
+        <select id="f-min" data-draw="f-min" data-source="proyectos"></select>
+      </label>
+      <label class="ox-field" for="f-depto">Departamento
+        <select id="f-depto" data-draw="f-depto" data-source="proyectos"></select>
+      </label>
+      <label class="ox-field" for="f-mod">Modalidad
+        <select id="f-mod" data-draw="f-mod" data-source="proyectos"></select>
+      </label>
+      <label class="ox-field is-grow" for="f-q">Buscar
+        <input type="search" id="f-q" class="ox-fq" placeholder="Proyecto, municipio o empresa">
+      </label>
+      <button type="button" class="ox-btn ox-limpiar" hidden>Quitar filtros</button>
+    </div>
+    <p class="ox-sel">Selección: <b data-draw="sel-n" data-source="proyectos">—</b> proyectos por <b data-draw="sel-v" data-source="proyectos">—</b></p>
+    <div class="ox-grid">
+      <div class="ox-card is-wide" id="card-anios">
+        <h3>Valor aprobado por año</h3>
+        <p class="ox-sub">Billones de pesos. El número sobre cada barra es la cantidad de proyectos.</p>
+        <div class="ox-chart dash-skeleton" data-draw="ch-anios" data-source="proyectos"></div>
+      </div>
+      <div class="ox-card" id="card-min">
+        <h3>Valor por ministerio</h3>
+        <p class="ox-sub">Entidad nacional competente según la línea de inversión del proyecto.</p>
+        <div class="ox-chart dash-skeleton" data-draw="ch-min" data-source="proyectos"></div>
+      </div>
+      <div class="ox-card" id="card-depto">
+        <h3>Departamentos con más valor aprobado</h3>
+        <p class="ox-sub">Los diez primeros de la selección.</p>
+        <div class="ox-chart dash-skeleton" data-draw="ch-depto" data-source="proyectos"></div>
+      </div>
+      <div class="ox-card" id="card-empresas">
+        <h3>Empresas con más valor aprobado</h3>
+        <p class="ox-sub">Los diez primeros contribuyentes de la selección; un proyecto con varias empresas cuenta para cada una.</p>
+        <div class="ox-chart dash-skeleton" data-draw="ch-emp" data-source="proyectos"></div>
+      </div>
+      <div class="ox-card" id="card-mod">
+        <h3>Fiducia o convenio</h3>
+        <p class="ox-sub">Valor aprobado por modalidad del mecanismo.</p>
+        <div class="ox-chart is-short dash-skeleton" data-draw="ch-mod" data-source="proyectos"></div>
+      </div>
+    </div>
+    <div class="ox-card" id="card-tabla-proyectos">
+      <h3>Listado de proyectos</h3>
+      <p class="ox-sub">Ordena con los encabezados. Valores en pesos corrientes del año de aprobación.</p>
+      <div class="ox-tablewrap is-tall">
+        <table class="ox-table" id="tabla-proyectos" data-source="proyectos" data-row-key="id">
+          <thead>
+            <tr>
+              <th data-field="anio" aria-sort="descending"><button type="button" class="ox-th" data-sort="anio">Año</button></th>
+              <th data-field="nombre"><button type="button" class="ox-th" data-sort="nombre">Proyecto</button></th>
+              <th data-field="ministerio"><button type="button" class="ox-th" data-sort="ministerio">Ministerio</button></th>
+              <th data-field="departamento" class="ox-hide-n"><button type="button" class="ox-th" data-sort="departamento">Departamento</button></th>
+              <th data-field="municipio" class="ox-hide-n"><button type="button" class="ox-th" data-sort="municipio">Municipio</button></th>
+              <th data-field="valor_cop" class="ox-r"><button type="button" class="ox-th" data-sort="valor_cop">Valor</button></th>
+              <th data-field="contribuyente" class="ox-hide-n"><button type="button" class="ox-th" data-sort="contribuyente">Empresa</button></th>
+            </tr>
+          </thead>
+          <tbody data-draw="t-proyectos"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="ox-sec" id="ejecucion">
+    <h2>Ejecución de las obras aprobadas</h2>
+    <p class="ox-lede">Estado de cada proyecto aprobado según su ficha en MapaInversiones del DNP (corte 1 de noviembre de 2026). El avance físico solo está reportado en <b data-draw="kpi" data-source="resumen_ejecucion" data-field="con_dato_fisico" data-row="0">—</b> proyectos, así que "sin avance reportado" no quiere decir que la obra no haya empezado.</p>
+    <div class="ox-tiles">
+      <div class="ox-tile">
+        <p class="ox-tile-k">Terminadas</p>
+        <p class="ox-tile-v"><span data-draw="kpi" data-source="resumen_ejecucion" data-field="terminadas" data-row="0" class="dash-skeleton">—</span></p>
+        <p class="ox-tile-s">Avance físico de 99 % o más</p>
+      </div>
+      <div class="ox-tile">
+        <p class="ox-tile-k">En obra con avance</p>
+        <p class="ox-tile-v"><span data-draw="kpi" data-source="resumen_ejecucion" data-field="con_avance" data-row="0" class="dash-skeleton">—</span></p>
+        <p class="ox-tile-s">Avance promedio <span data-draw="kpi" data-fmt="pct" data-source="resumen_ejecucion" data-field="avance_promedio" data-row="0">—</span></p>
+      </div>
+      <div class="ox-tile">
+        <p class="ox-tile-k">En ejecución sin avance reportado</p>
+        <p class="ox-tile-v"><span data-draw="kpi" data-source="resumen_ejecucion" data-field="sin_avance" data-row="0" class="dash-skeleton">—</span></p>
+        <p class="ox-tile-s">El ejecutor no ha cargado avance físico</p>
+      </div>
+      <div class="ox-tile">
+        <p class="ox-tile-k">Con plazo vencido</p>
+        <p class="ox-tile-v"><span data-draw="kpi" data-source="resumen_ejecucion" data-field="vencidos" data-row="0" class="dash-skeleton">—</span></p>
+        <p class="ox-tile-s"><span data-draw="kpi" data-fmt="cop" data-source="resumen_ejecucion" data-field="valor_vencidos" data-row="0">—</span>; horizonte terminado antes de 2026 y avance menor a 99 %</p>
+      </div>
+      <div class="ox-tile">
+        <p class="ox-tile-k">Sin seguimiento de obra</p>
+        <p class="ox-tile-v"><span data-draw="kpi" data-source="resumen_ejecucion" data-field="viables" data-row="0" class="dash-skeleton">—</span></p>
+        <p class="ox-tile-s">Siguen como "viable" en el SUIFP, casi todos de 2018–2021</p>
+      </div>
+    </div>
+    <div class="ox-grid">
+      <div class="ox-card" id="card-eje-anio">
+        <h3>Situación por año de aprobación</h3>
+        <p class="ox-sub">Número de proyectos. Clic en un año para filtrar el listado.</p>
+        <ul class="ox-legend">
+          <li><span class="ox-sw" data-sit-color="1"></span>Terminada</li>
+          <li><span class="ox-sw" data-sit-color="2"></span>Con avance</li>
+          <li><span class="ox-sw" data-sit-color="3"></span>Sin avance reportado</li>
+          <li><span class="ox-sw" data-sit-color="4"></span>Sin seguimiento</li>
+        </ul>
+        <div class="ox-chart dash-skeleton" data-draw="ech-anio" data-source="ejecucion"></div>
+      </div>
+      <div class="ox-card" id="card-eje-min">
+        <h3>Situación por ministerio</h3>
+        <p class="ox-sub">Número de proyectos; al final, cuántos tienen el plazo vencido. Clic para filtrar.</p>
+        <div class="ox-chart dash-skeleton" data-draw="ech-min" data-source="ejecucion"></div>
+      </div>
+      <div class="ox-card" id="card-eje-pago">
+        <h3>Pagado frente a valor aprobado</h3>
+        <p class="ox-sub">Por año de aprobación, solo proyectos cuyo pago reportado no supera su valor. Los demás traen cifras agregadas que no se pueden atribuir al proyecto.</p>
+        <div class="ox-chart dash-skeleton" data-draw="ech-pago" data-source="ejecucion"></div>
+      </div>
+    </div>
+    <div class="ox-card" id="card-tabla-eje">
+      <h3>Seguimiento por proyecto</h3>
+      <div class="ox-tools">
+        <button type="button" class="ox-chip ox-echip" data-sit="" aria-pressed="true">Todas</button>
+        <button type="button" class="ox-chip ox-echip" data-sit="vencido" aria-pressed="false">Plazo vencido</button>
+        <button type="button" class="ox-chip ox-echip" data-sit="1" aria-pressed="false">Terminadas</button>
+        <button type="button" class="ox-chip ox-echip" data-sit="2" aria-pressed="false">Con avance</button>
+        <button type="button" class="ox-chip ox-echip" data-sit="3" aria-pressed="false">Sin avance reportado</button>
+        <button type="button" class="ox-chip ox-echip" data-sit="4" aria-pressed="false">Sin seguimiento</button>
+        <button type="button" class="ox-btn ox-elimpiar" hidden>Quitar año y ministerio</button>
+        <input type="search" id="e-q" class="ox-buscar ox-eq" placeholder="Proyecto, municipio o BPIN" aria-label="Buscar proyecto, municipio o BPIN">
+        <span class="ox-count" data-draw="ecount" data-source="ejecucion">—</span>
+      </div>
+      <div class="ox-tablewrap is-tall">
+        <table class="ox-table" id="tabla-eje" data-source="ejecucion" data-row-key="id">
+          <thead>
+            <tr>
+              <th data-field="situacion"><button type="button" class="ox-eth" data-sort="situacion_orden">Situación</button></th>
+              <th data-field="nombre"><button type="button" class="ox-eth" data-sort="nombre">Proyecto</button></th>
+              <th data-field="anio"><button type="button" class="ox-eth" data-sort="anio">Año</button></th>
+              <th data-field="ministerio" class="ox-hide-n"><button type="button" class="ox-eth" data-sort="ministerio">Ministerio</button></th>
+              <th data-field="municipio" class="ox-hide-n"><button type="button" class="ox-eth" data-sort="municipio">Municipio</button></th>
+              <th data-field="valor_cop" class="ox-r" aria-sort="descending"><button type="button" class="ox-eth" data-sort="valor_cop">Valor</button></th>
+              <th data-field="avance_fisico" class="ox-r"><button type="button" class="ox-eth" data-sort="avance_fisico">Avance físico</button></th>
+              <th data-field="pago_pct" class="ox-r ox-hide-n"><button type="button" class="ox-eth" data-sort="pago_pct">Pagado</button></th>
+              <th data-field="horizonte" class="ox-hide-n"><button type="button" class="ox-eth" data-sort="fin_horizonte">Horizonte</button></th>
+            </tr>
+          </thead>
+          <tbody data-draw="t-eje"></tbody>
+        </table>
+      </div>
+    </div>
+    <p class="ox-note">La situación combina el estado del proyecto en el SUIFP con su avance físico. Los proyectos de fiducia los ejecuta el contribuyente y su avance no siempre se carga en el sistema del DNP, así que conviene contrastar con los informes de interventoría y de la fiducia. Cada BPIN abre su ficha en MapaInversiones: mapainversiones.dnp.gov.co.</p>
+  </section>
+
+  <section class="ox-sec" id="vencidos">
+    <h2>Revisión de los proyectos con plazo vencido</h2>
+    <p class="ox-lede">Los <b data-draw="kpi" data-source="resumen_vencidos" data-field="total" data-row="0">—</b> proyectos que siguen en ejecución después de terminar su horizonte, clasificados con el avance físico, el avance de sus productos en el DNP y los pagos reportados. Sirve para priorizar a cuáles pedir información a la ART, al ministerio o a la fiducia.</p>
+    <dl class="ox-niveles">
+      <div><dt><span class="ox-pill is-bad">Crítica</span></dt><dd>Ningún avance físico ni de productos y el horizonte terminó en 2024 o antes.</dd></div>
+      <div><dt><span class="ox-pill is-warn">Alta</span></dt><dd>Avance menor a 50 %, o ninguno con el horizonte terminado en 2025.</dd></div>
+      <div><dt><span class="ox-pill is-info">Pagada, sin avance reportado</span></dt><dd>Pagos de la mitad o más del valor sin avance cargado: probable obra hecha sin reporte.</dd></div>
+      <div><dt><span class="ox-pill is-ok">Media</span></dt><dd>Avance de 50 % o más, pero sin terminar.</dd></div>
+    </dl>
+    <div class="ox-tiles">
+      <div class="ox-tile">
+        <p class="ox-tile-k">Alerta crítica</p>
+        <p class="ox-tile-v"><span data-draw="kpi" data-source="resumen_vencidos" data-field="criticos" data-row="0" class="dash-skeleton">—</span></p>
+        <p class="ox-tile-s"><span data-draw="kpi" data-fmt="cop" data-source="resumen_vencidos" data-field="valor_criticos" data-row="0">—</span></p>
+      </div>
+      <div class="ox-tile">
+        <p class="ox-tile-k">Alerta alta</p>
+        <p class="ox-tile-v"><span data-draw="kpi" data-source="resumen_vencidos" data-field="altos" data-row="0" class="dash-skeleton">—</span></p>
+        <p class="ox-tile-s"><span data-draw="kpi" data-fmt="cop" data-source="resumen_vencidos" data-field="valor_altos" data-row="0">—</span></p>
+      </div>
+      <div class="ox-tile">
+        <p class="ox-tile-k">Pagadas sin avance reportado</p>
+        <p class="ox-tile-v"><span data-draw="kpi" data-source="resumen_vencidos" data-field="pagados" data-row="0" class="dash-skeleton">—</span></p>
+        <p class="ox-tile-s"><span data-draw="kpi" data-fmt="cop" data-source="resumen_vencidos" data-field="valor_pagados" data-row="0">—</span></p>
+      </div>
+      <div class="ox-tile">
+        <p class="ox-tile-k">Meses vencidos, en promedio</p>
+        <p class="ox-tile-v"><span data-draw="kpi" data-source="resumen_vencidos" data-field="meses_promedio" data-row="0" class="dash-skeleton">—</span></p>
+        <p class="ox-tile-s">Desde el fin del horizonte hasta el corte del DNP</p>
+      </div>
+    </div>
+    <div class="ox-grid">
+      <div class="ox-card" id="card-venc-min">
+        <h3>Vencidos por ministerio y nivel</h3>
+        <p class="ox-sub">Número de proyectos. Clic para filtrar la lista.</p>
+        <ul class="ox-legend">
+          <li><span class="ox-sw" data-nivel-color="1"></span>Crítica</li>
+          <li><span class="ox-sw" data-nivel-color="2"></span>Alta</li>
+          <li><span class="ox-sw" data-nivel-color="3"></span>Pagada sin avance</li>
+          <li><span class="ox-sw" data-nivel-color="4"></span>Media</li>
+        </ul>
+        <div class="ox-chart dash-skeleton" data-draw="vch-min" data-source="vencidos"></div>
+      </div>
+      <div class="ox-card" id="card-venc-depto">
+        <h3>Departamentos con más valor en alerta crítica o alta</h3>
+        <p class="ox-sub">Valor de los proyectos vencidos de nivel crítico y alto. Clic para filtrar.</p>
+        <div class="ox-chart dash-skeleton" data-draw="vch-depto" data-source="vencidos"></div>
+      </div>
+    </div>
+    <div class="ox-card" id="card-tabla-venc">
+      <h3>Lista priorizada</h3>
+      <p class="ox-sub">Ordenada por nivel de alerta y valor. El nombre abre la ficha del proyecto en MapaInversiones.</p>
+      <div class="ox-tools">
+        <button type="button" class="ox-chip ox-vchip" data-nivel="" aria-pressed="true">Todos</button>
+        <button type="button" class="ox-chip ox-vchip" data-nivel="1" aria-pressed="false">Crítica</button>
+        <button type="button" class="ox-chip ox-vchip" data-nivel="2" aria-pressed="false">Alta</button>
+        <button type="button" class="ox-chip ox-vchip" data-nivel="3" aria-pressed="false">Pagada sin avance</button>
+        <button type="button" class="ox-chip ox-vchip" data-nivel="4" aria-pressed="false">Media</button>
+        <button type="button" class="ox-btn ox-vlimpiar" hidden>Quitar ministerio y departamento</button>
+        <input type="search" id="v-q" class="ox-buscar ox-vq" placeholder="Proyecto, municipio o BPIN" aria-label="Buscar proyecto, municipio o BPIN">
+        <span class="ox-count" data-draw="vcount" data-source="vencidos">—</span>
+      </div>
+      <div class="ox-tablewrap is-tall">
+        <table class="ox-table" id="tabla-venc" data-source="vencidos" data-row-key="id">
+          <thead>
+            <tr>
+              <th data-field="nivel">Alerta</th>
+              <th data-field="nombre">Proyecto</th>
+              <th data-field="ministerio" class="ox-hide-n">Ministerio</th>
+              <th data-field="municipio" class="ox-hide-n">Municipio</th>
+              <th data-field="valor_cop" class="ox-r">Valor</th>
+              <th data-field="horizonte" class="ox-hide-n">Horizonte</th>
+              <th data-field="meses_vencido" class="ox-r">Meses vencido</th>
+              <th data-field="senal_avance" class="ox-r">Avance</th>
+              <th data-field="pago_pct" class="ox-r ox-hide-n">Pagado</th>
+              <th data-field="productos" class="ox-hide-n">Producto principal</th>
+            </tr>
+          </thead>
+          <tbody data-draw="t-venc"></tbody>
+        </table>
+      </div>
+    </div>
+    <p class="ox-note">El avance es el mayor entre el avance físico del proyecto y el avance de sus productos, ponderado por costo. En los contratos del SECOP II no aparece el BPIN de ninguno de estos proyectos: en la opción fiducia la contratación la hace un patrimonio autónomo privado, así que el siguiente paso son los informes de la fiducia y de la interventoría, o un derecho de petición a la ART.</p>
+  </section>
+
+  <section class="ox-sec" id="tramite">
+    <h2>Proyectos en trámite, corte 3 de julio de 2026</h2>
+    <p class="ox-lede">Iniciativas presentadas a la ART por la MGA Web del DNP que aún no entran al Banco de Proyectos. Solo las registradas, con viabilidad del ministerio y control posterior del DNP, se pueden financiar. Hay <b data-draw="kpi" data-source="resumen_tramite" data-field="proyectos" data-row="0">—</b> proyectos por <b data-draw="kpi" data-fmt="cop" data-source="resumen_tramite" data-field="costo" data-row="0">—</b> de costo estimado.</p>
+    <div class="ox-filters" id="filtros-tramite">
+      <label class="ox-field" for="t-estado">Estado
+        <select id="t-estado" data-draw="tf-estado" data-source="tramite"></select>
+      </label>
+      <label class="ox-field" for="t-min">Ministerio
+        <select id="t-min" data-draw="tf-min" data-source="tramite"></select>
+      </label>
+      <label class="ox-field" for="t-depto">Departamento
+        <select id="t-depto" data-draw="tf-depto" data-source="tramite"></select>
+      </label>
+      <label class="ox-field" for="t-tipo">Proponente
+        <select id="t-tipo" data-draw="tf-tipo" data-source="tramite"></select>
+      </label>
+      <label class="ox-field is-grow" for="t-q">Buscar
+        <input type="search" id="t-q" class="ox-tq" placeholder="Proyecto, municipio o proponente">
+      </label>
+      <button type="button" class="ox-btn ox-tlimpiar" hidden>Quitar filtros</button>
+    </div>
+    <p class="ox-sel">Selección: <b data-draw="tsel-n" data-source="tramite">—</b> proyectos por <b data-draw="tsel-v" data-source="tramite">—</b></p>
+    <div class="ox-grid">
+      <div class="ox-card" id="card-estados">
+        <h3>Dónde está cada proyecto</h3>
+        <p class="ox-sub">Estado en el SUIFP, del más avanzado al que debe corregirse. Clic para filtrar.</p>
+        <div class="ox-chart dash-skeleton" data-draw="tch-estado" data-source="tramite"></div>
+      </div>
+      <div class="ox-card" id="card-tramite-min">
+        <h3>Estado por ministerio</h3>
+        <p class="ox-sub">Número de proyectos de cada entidad, por estado. Clic para filtrar.</p>
+        <ul class="ox-legend">
+          <li><span class="ox-sw" data-estado-color="4"></span>Registrado</li>
+          <li><span class="ox-sw" data-estado-color="3"></span>Control DNP</li>
+          <li><span class="ox-sw" data-estado-color="2"></span>En revisión</li>
+          <li><span class="ox-sw" data-estado-color="1"></span>Devuelto</li>
+        </ul>
+        <div class="ox-chart dash-skeleton" data-draw="tch-min" data-source="tramite"></div>
+      </div>
+      <div class="ox-card" id="card-tramite-depto">
+        <h3>Departamentos con más costo en trámite</h3>
+        <p class="ox-sub">Los diez primeros de la selección.</p>
+        <div class="ox-chart dash-skeleton" data-draw="tch-depto" data-source="tramite"></div>
+      </div>
+      <div class="ox-card" id="card-tramite-tipo">
+        <h3>Quién propone</h3>
+        <p class="ox-sub">Costo estimado por tipo de proponente.</p>
+        <div class="ox-chart is-short dash-skeleton" data-draw="tch-tipo" data-source="tramite"></div>
+      </div>
+    </div>
+    <div class="ox-card" id="card-tabla-tramite">
+      <h3>Listado de proyectos en trámite</h3>
+      <p class="ox-sub">Ordena con los encabezados. Costo estimado en pesos corrientes.</p>
+      <div class="ox-tablewrap is-tall">
+        <table class="ox-table" id="tabla-tramite" data-source="tramite" data-row-key="id">
+          <thead>
+            <tr>
+              <th data-field="estado"><button type="button" class="ox-tth" data-sort="estado_orden">Estado</button></th>
+              <th data-field="nombre"><button type="button" class="ox-tth" data-sort="nombre">Proyecto</button></th>
+              <th data-field="ministerio"><button type="button" class="ox-tth" data-sort="ministerio">Ministerio</button></th>
+              <th data-field="departamento" class="ox-hide-n"><button type="button" class="ox-tth" data-sort="departamento">Departamento</button></th>
+              <th data-field="municipio" class="ox-hide-n"><button type="button" class="ox-tth" data-sort="municipio">Municipio</button></th>
+              <th data-field="costo_cop" class="ox-r" aria-sort="descending"><button type="button" class="ox-tth" data-sort="costo_cop">Costo</button></th>
+              <th data-field="proponente" class="ox-hide-n"><button type="button" class="ox-tth" data-sort="proponente">Proponente</button></th>
+              <th data-field="fase" class="ox-hide-n"><button type="button" class="ox-tth" data-sort="fase">Fase</button></th>
+            </tr>
+          </thead>
+          <tbody data-draw="t-tramite"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="ox-sec" id="cruce">
+    <h2>Lo aprobado frente a lo que viene</h2>
+    <p class="ox-lede">Cruce por municipio, departamento y ministerio de los proyectos aprobados 2018–2025 con los que están en trámite en 2026. Ningún proyecto en trámite repite el BPIN de uno aprobado: toda la cartera es nueva.</p>
+    <div class="ox-tiles">
+      <div class="ox-tile">
+        <p class="ox-tile-k">Cartera financiable frente al cupo 2026</p>
+        <p class="ox-tile-v"><span data-draw="kpi" data-fmt="x" data-source="cruce_resumen" data-field="ratio_cupo" data-row="0" class="dash-skeleton">—</span> veces</p>
+        <p class="ox-tile-s"><span data-draw="kpi" data-fmt="cop" data-source="cruce_resumen" data-field="costo_registrado" data-row="0">—</span> registrados contra <span data-draw="kpi" data-fmt="cop" data-source="cruce_resumen" data-field="cupo_2026" data-row="0">—</span> de cupo</p>
+      </div>
+      <div class="ox-tile">
+        <p class="ox-tile-k">Municipios que entran por primera vez</p>
+        <p class="ox-tile-v"><span data-draw="kpi" data-source="cruce_resumen" data-field="mun_nuevos" data-row="0" class="dash-skeleton">—</span></p>
+        <p class="ox-tile-s"><span data-draw="kpi" data-fmt="cop" data-source="cruce_resumen" data-field="costo_nuevos" data-row="0">—</span> en trámite, sin proyectos aprobados antes</p>
+      </div>
+      <div class="ox-tile">
+        <p class="ox-tile-k">Municipios sin cartera nueva</p>
+        <p class="ox-tile-v"><span data-draw="kpi" data-source="cruce_resumen" data-field="mun_solo_aprob" data-row="0" class="dash-skeleton">—</span></p>
+        <p class="ox-tile-s">Tuvieron proyectos aprobados y no tienen ninguno en trámite</p>
+      </div>
+      <div class="ox-tile">
+        <p class="ox-tile-k">Municipios con historia y cartera</p>
+        <p class="ox-tile-v"><span data-draw="kpi" data-source="cruce_resumen" data-field="mun_ambos" data-row="0" class="dash-skeleton">—</span></p>
+        <p class="ox-tile-s">Proyectos aprobados y en trámite</p>
+      </div>
+    </div>
+    <div class="ox-grid">
+      <div class="ox-card" id="card-cruce-min">
+        <h3>Por ministerio: aprobado en 2025 frente a financiable hoy</h3>
+        <p class="ox-sub">Financiable es la cartera registrada en el trámite de 2026; la tercera barra es la cartera aún devuelta o en revisión.</p>
+        <ul class="ox-legend">
+          <li><span class="ox-sw" data-color="0"></span>Aprobado 2025</li>
+          <li><span class="ox-sw" data-color="1"></span>Financiable hoy</li>
+          <li><span class="ox-sw"></span>Pendiente</li>
+        </ul>
+        <div class="ox-chart dash-skeleton" data-draw="ch-cmin" data-source="cruce_ministerio"></div>
+      </div>
+      <div class="ox-card" id="card-cruce-depto">
+        <h3>Por departamento: historia frente a cartera</h3>
+        <p class="ox-sub">Valor aprobado 2018–2025 y costo en trámite 2026. Los doce con más recursos en total.</p>
+        <ul class="ox-legend">
+          <li><span class="ox-sw" data-color="0"></span>Aprobado 2018–2025</li>
+          <li><span class="ox-sw" data-color="1"></span>En trámite 2026</li>
+        </ul>
+        <div class="ox-chart dash-skeleton" data-draw="ch-cdep" data-source="cruce_depto"></div>
+      </div>
+    </div>
+    <div class="ox-card" id="card-tabla-cruce">
+      <h3>Municipios</h3>
+      <div class="ox-tools">
+        <button type="button" class="ox-cchip ox-chip" data-cat="" aria-pressed="true">Todos</button>
+        <button type="button" class="ox-cchip ox-chip" data-cat="Nuevo: solo en trámite" aria-pressed="false">Nuevos</button>
+        <button type="button" class="ox-cchip ox-chip" data-cat="Solo aprobados" aria-pressed="false">Sin cartera nueva</button>
+        <button type="button" class="ox-cchip ox-chip" data-cat="Con aprobados y en trámite" aria-pressed="false">Con historia y cartera</button>
+        <input type="search" id="c-q" class="ox-buscar ox-cq" placeholder="Buscar municipio o departamento" aria-label="Buscar municipio o departamento">
+        <span class="ox-count" data-draw="ccount" data-source="cruce_municipios">—</span>
+      </div>
+      <div class="ox-tablewrap is-tall">
+        <table class="ox-table" id="tabla-cruce" data-source="cruce_municipios" data-row-key="id">
+          <thead>
+            <tr>
+              <th data-field="municipio"><button type="button" class="ox-cth" data-sort="municipio">Municipio</button></th>
+              <th data-field="departamento" class="ox-hide-n"><button type="button" class="ox-cth" data-sort="departamento">Departamento</button></th>
+              <th data-field="categoria">Situación</th>
+              <th data-field="aprob_n" class="ox-r"><button type="button" class="ox-cth" data-sort="aprob_n">Aprobados</button></th>
+              <th data-field="aprob_valor" class="ox-r"><button type="button" class="ox-cth" data-sort="aprob_valor">Valor aprobado</button></th>
+              <th data-field="tram_n" class="ox-r"><button type="button" class="ox-cth" data-sort="tram_n">En trámite</button></th>
+              <th data-field="tram_costo" class="ox-r" aria-sort="descending"><button type="button" class="ox-cth" data-sort="tram_costo">Costo en trámite</button></th>
+              <th data-field="tram_registrados" class="ox-r ox-hide-n"><button type="button" class="ox-cth" data-sort="tram_registrados">Financiables</button></th>
+              <th data-field="tram_devueltos" class="ox-r ox-hide-n"><button type="button" class="ox-cth" data-sort="tram_devueltos">Devueltos</button></th>
+            </tr>
+          </thead>
+          <tbody data-draw="t-cruce"></tbody>
+        </table>
+      </div>
+    </div>
+    <p class="ox-note">El cruce une los municipios por nombre y departamento, sin tildes. Un proyecto de varios municipios cuenta en cada uno y su valor se reparte por partes iguales. Los proyectos aprobados que abarcan varios departamentos no entran en el cruce municipal.</p>
+  </section>
+
+  <section class="ox-sec" id="ministerios">
+    <h2>Quién responde por cada sector</h2>
+    <p class="ox-lede">Cada proyecto tiene una Entidad Nacional Competente: el ministerio del sector emite el concepto de procedencia, revisa la viabilidad y entrega la obra terminada a la entidad territorial. De <b data-draw="kpi" data-source="min_resumen" data-field="total" data-row="0">—</b> entidades, <b data-draw="kpi" data-source="min_resumen" data-field="decreto" data-row="0">—</b> están en el decreto, <b data-draw="kpi" data-source="min_resumen" data-field="datos_art" data-row="0">—</b> aparecen como línea en la base de la ART y <b data-draw="kpi" data-source="min_resumen" data-field="por_verificar" data-row="0">—</b> siguen por verificar.</p>
+    <div class="ox-card">
+      <div class="ox-tools">
+        <button type="button" class="ox-chip" data-estado="" aria-pressed="true">Todas</button>
+        <button type="button" class="ox-chip" data-estado="Por decreto" aria-pressed="false">Por decreto</button>
+        <button type="button" class="ox-chip" data-estado="En datos ART" aria-pressed="false">En datos ART</button>
+        <button type="button" class="ox-chip" data-estado="Por verificar" aria-pressed="false">Por verificar</button>
+        <input type="search" id="ox-buscar" class="ox-buscar" placeholder="Buscar ministerio o sector" aria-label="Buscar ministerio o sector">
+        <span class="ox-count" data-draw="mincount" data-source="ministerios">—</span>
+      </div>
+      <div class="ox-tablewrap">
+        <table class="ox-table" id="tabla-ministerios" data-source="ministerios" data-row-key="id">
+          <thead>
+            <tr>
+              <th data-field="ministerio">Entidad</th>
+              <th data-field="sector">Sector o línea</th>
+              <th data-field="base_legal" class="ox-hide-n">Base</th>
+              <th data-field="estado">Estado</th>
+              <th data-source="por_ministerio" data-field="proyectos" class="ox-r">Proyectos</th>
+              <th data-source="por_ministerio" data-field="valor_cop" class="ox-r">Valor 2018–2025</th>
+              <th data-source="tramite_por_ministerio" data-field="en_tramite" class="ox-r">En trámite 2026</th>
+              <th data-source="tramite_por_ministerio" data-field="pct_devueltos" class="ox-r">Devueltos</th>
+            </tr>
+          </thead>
+          <tbody data-draw="mintabla"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="ox-sec" id="recursos">
+    <h2>Cupo y educación</h2>
+    <div class="ox-grid">
+      <div class="ox-card" id="card-cupos">
+        <h3>Cupo aprobado por el CONFIS</h3>
+        <p class="ox-sub">Tope de recursos que los contribuyentes pueden pagar con obras, por vigencia y modalidad.</p>
+        <ul class="ox-legend">
+          <li><span class="ox-sw" data-color="0"></span>Fiducia</li>
+          <li><span class="ox-sw" data-color="1"></span>Convenio</li>
+          <li><span class="ox-sw"></span>Total sin desglose publicado</li>
+        </ul>
+        <div class="ox-chart is-short dash-skeleton" data-draw="cupos" data-source="cupos"></div>
+      </div>
+      <div class="ox-card" id="card-edu-componentes">
+        <h3>Educación por componente, 2023–2025</h3>
+        <p class="ox-sub">Según MinEducación: <span data-draw="kpi" data-source="indicadores" data-field="valor" data-where="clave=edu_proyectos">—</span> proyectos en <span data-draw="kpi" data-source="indicadores" data-field="valor" data-where="clave=edu_departamentos">—</span> departamentos.</p>
+        <div class="ox-chart dash-skeleton" data-draw="educomp" data-source="educacion_componentes"></div>
+      </div>
+      <div class="ox-card" id="card-edu-deptos">
+        <h3>Educación por departamento, 2023–2025</h3>
+        <p class="ox-sub">Los seis que nombra el comunicado de MinEducación.</p>
+        <div class="ox-chart dash-skeleton" data-draw="edudep" data-source="educacion_departamentos"></div>
+      </div>
+    </div>
+    <p class="ox-note">Los cuatro componentes de MinEducación suman <b data-draw="kpi" data-fmt="cop" data-source="edu_suma" data-field="total" data-row="0">—</b>, mientras su titular habla de <span data-draw="cota" data-source="indicadores" data-field="cota" data-where="clave=edu_valor">—</span> <b data-draw="kpi" data-fmt="cop" data-source="indicadores" data-field="valor" data-where="clave=edu_valor">—</b>. Los gráficos usan el desglose.</p>
+  </section>
+
+  <section class="ox-sec" id="ciclo">
+    <h2>Ciclo de un proyecto</h2>
+    <ol class="ox-steps">
+      <li><strong>Registro en el banco</strong>La entidad territorial o el contribuyente inscribe la iniciativa en el Banco de Proyectos de la ART.</li>
+      <li><strong>Concepto de procedencia</strong>El ministerio competente dice si la iniciativa procede, en un plazo de diez días.</li>
+      <li><strong>Viabilidad</strong>El ministerio revisa estudios y diseños; el DNP hace el control posterior.</li>
+      <li><strong>Cupo y selección</strong>El CONFIS fija el cupo anual y el contribuyente se vincula por fiducia o convenio.</li>
+      <li><strong>Ejecución</strong>El contribuyente ejecuta la obra con interventoría y supervisión del ministerio.</li>
+      <li><strong>Entrega</strong>El ministerio entrega la obra al municipio o departamento que la va a operar.</li>
+    </ol>
+  </section>
+
+  <section class="ox-sec" id="cifras">
+    <h2>Cifras publicadas en prensa y comunicados</h2>
+    <p class="ox-lede">Sirven para contrastar con la base de la ART. Vienen de cortes distintos, así que no se deben sumar entre sí.</p>
+    <div class="ox-card">
+      <div class="ox-tablewrap">
+        <table class="ox-table" id="tabla-indicadores" data-source="indicadores" data-row-key="clave">
+          <thead>
+            <tr>
+              <th data-field="indicador">Indicador</th>
+              <th data-field="periodo">Periodo</th>
+              <th data-field="valor">Valor</th>
+              <th data-field="fuente" class="ox-hide-n">Fuente</th>
+            </tr>
+          </thead>
+          <tbody data-draw="indtabla"></tbody>
+        </table>
+      </div>
+    </div>
+    <ul class="ox-notes">
+      <li>La base de proyectos es el archivo "Resultados Obras por Impuestos 2018–2025" (preliminar) que publica la ART en su sección de Resultados, actualizado en septiembre de 2026. Aún no trae proyectos de 2026.</li>
+      <li>Los proyectos registran el año de aprobación y el valor aprobado; la base no trae estado de ejecución ni avance físico.</li>
+      <li>Para Gestión del riesgo y Pagos por servicios ambientales la base no nombra la entidad competente; la asignada aquí es una suposición por verificar.</li>
+      <li>Los proyectos que abarcan varios departamentos aparecen como "Varios departamentos".</li>
+      <li>El listado de trámite es el que publica la ART en su página de Obras por Impuestos, con corte al 3 de julio de 2026. Su costo es estimado por el proponente y no es valor aprobado. La línea Infraestructura productiva no tiene entidad competente identificada y aparece como "Por definir".</li>
+    </ul>
+  </section>
+</div>
+
+<script>
+// Escala de azules del tablero (definida en el CSS como --ox-azul-1 … --ox-azul-8)
+window.oxAzules = [1, 2, 3, 4, 5, 6, 7, 8].map((n) => 'var(--ox-azul-' + n + ')');
+</script>
+
+<script>
+(function () {
+  const nf = (d) => new Intl.NumberFormat('es-CO', { maximumFractionDigits: d });
+  const cop = (v) => (v == null || isNaN(v)) ? '—' : (Math.abs(v) >= 1e12 ? '$' + nf(2).format(v / 1e12) + ' billones' : '$' + nf(1).format(v / 1e9) + ' mil millones');
+  const copCorto = (v) => (Math.abs(v) >= 1e12 ? '$' + nf(2).format(v / 1e12) + ' bill.' : Math.abs(v) >= 1e9 ? '$' + nf(0).format(v / 1e9) + ' mil M' : '$' + nf(0).format(v / 1e6) + ' M');
+  const num = (v) => (v == null || isNaN(v)) ? '—' : nf(0).format(v);
+  // Valor completo en pesos, para cada proyecto: $19.723.456.789
+  const copCompleto = (v) => (v == null || isNaN(v)) ? '—' : '$' + nf(0).format(Math.round(v));
+  const pct = (v) => (v == null || isNaN(v)) ? '—' : nf(0).format(v * 100) + ' %';
+  const veces = (v) => (v == null || isNaN(v)) ? '—' : nf(1).format(v);
+  const minus = new Set(['de', 'del', 'la', 'las', 'los', 'y', 'e', 'el', 'en']);
+  const titulo = (s) => String(s || '').toLowerCase().split(' ').map((w, i) => (i > 0 && minus.has(w)) ? w : w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+
+  function pick(rows, el) {
+    if (el.dataset.where) {
+      const conds = el.dataset.where.split('&').filter(Boolean).map((p) => p.split('=').map(decodeURIComponent));
+      return rows.find((r) => conds.every(([k, v]) => String(r[k]) === v));
+    }
+    return rows[Number(el.dataset.row || 0)];
+  }
+  function ready(el, d, isChart) {
+    el.classList.toggle('dash-skeleton', d.status === 'loading' || d.status === 'missing');
+    if (d.status === 'ok') return true;
+    el.replaceChildren();
+    if (d.status === 'error' || d.status === 'connect' || d.status === 'declined') {
+      const f = document.createElement('span');
+      f.className = 'ox-fail';
+      f.textContent = 'No se pudo cargar';
+      el.append(f);
+    } else if (!isChart) {
+      el.textContent = '—';
+    }
+    return false;
+  }
+  function makeTip(el) {
+    const tip = document.createElement('div');
+    tip.className = 'ox-tip';
+    tip.hidden = true;
+    el.append(tip);
+    return {
+      show(event, head, lines) {
+        const h = document.createElement('span');
+        h.className = 'ox-tip-h';
+        h.textContent = head;
+        tip.replaceChildren(h, ...lines.map((t) => { const s = document.createElement('span'); s.textContent = t; return s; }));
+        tip.hidden = false;
+        const box = el.getBoundingClientRect();
+        const w = tip.offsetWidth, ht = tip.offsetHeight;
+        let x = event.clientX - box.left + 12, y = event.clientY - box.top - ht - 8;
+        if (x + w > box.width) x = Math.max(0, box.width - w);
+        if (y < 0) y = event.clientY - box.top + 14;
+        tip.style.left = x + 'px';
+        tip.style.top = y + 'px';
+      },
+      hide() { tip.hidden = true; },
+    };
+  }
+  function fit(sel, maxW) {
+    const node = sel.node();
+    let s = node.textContent;
+    while (s.length > 4 && node.getComputedTextLength() > maxW) {
+      s = s.slice(0, -2);
+      node.textContent = s.trimEnd() + '…';
+    }
+  }
+  function empty(el, msg) {
+    el.replaceChildren();
+    const f = document.createElement('span');
+    f.className = 'ox-fail';
+    f.style.setProperty('--x', '0');
+    f.textContent = msg;
+    el.append(f);
+  }
+
+  // Barras horizontales: etiqueta arriba, barra debajo, valor al final.
+  function hbar(el, rows, o) {
+    el.replaceChildren();
+    const W = Math.max(240, Math.floor(el.clientWidth));
+    const rowH = 44, top = 2;
+    const H = rows.length * rowH + top;
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', o.aria || '');
+    const probe = svg.append('text').attr('class', 'ox-bval');
+    let valW = 0;
+    rows.forEach((d) => { probe.text(o.text(d)); valW = Math.max(valW, probe.node().getComputedTextLength()); });
+    probe.remove();
+    const max = d3.max(rows, (d) => d3.sum(o.segs(d), (s) => s.v)) || 1;
+    const x = d3.scaleLinear([0, max], [0, Math.max(40, W - valW - 10)]);
+    const tip = makeTip(el);
+    svg.selectAll('g.ox-row').data(rows).join('g').attr('class', 'ox-row').attr('transform', (d, i) => `translate(0,${top + i * rowH})`)
+      .each(function (d) {
+        const row = d3.select(this);
+        fit(row.append('text').attr('class', 'ox-blabel').attr('x', 0).attr('y', 13).text(o.label(d)), W);
+        let acc = 0;
+        o.segs(d).forEach((s) => {
+          row.append('rect').attr('x', x(acc)).attr('y', 19).attr('height', 16).attr('rx', 3)
+            .attr('width', Math.max(2, x(acc + s.v) - x(acc))).style('fill', s.color);
+          acc += s.v;
+        });
+        row.append('text').attr('class', 'ox-bval').attr('x', x(acc) + 8).attr('y', 32).text(o.text(d));
+        const hit = row.append('rect').attr('class', 'ox-hit' + (o.onClick ? ' is-click' : '')).attr('x', 0).attr('y', 0).attr('width', W).attr('height', rowH)
+          .on('mousemove', (event) => tip.show(event, o.label(d), o.tip(d)))
+          .on('mouseleave', () => tip.hide());
+        if (o.onClick) hit.on('click', () => o.onClick(d));
+      });
+  }
+
+  // Barras verticales con eje de valores a la izquierda.
+  function vbar(el, rows, o) {
+    el.replaceChildren();
+    const W = Math.max(260, Math.floor(el.clientWidth)), H = 220;
+    const m = { t: 18, r: 4, b: 24, l: 0 };
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', o.aria || '');
+    const max = d3.max(rows, o.value) || 1;
+    const y = d3.scaleLinear([0, max], [H - m.b, m.t]).nice();
+    const ticks = y.ticks(4);
+    const probe = svg.append('text').attr('class', 'ox-tick');
+    ticks.forEach((t) => { probe.text(o.tick(t)); m.l = Math.max(m.l, probe.node().getComputedTextLength()); });
+    probe.remove();
+    m.l += 8;
+    const x = d3.scaleBand(rows.map(o.key), [m.l, W - m.r]).padding(0.28);
+    const gridG = svg.append('g');
+    ticks.forEach((t) => {
+      gridG.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(t)).attr('y2', y(t)).style('stroke', t === 0 ? 'var(--cds-chart-axis)' : 'var(--cds-chart-grid)').attr('stroke-width', 1);
+      gridG.append('text').attr('class', 'ox-tick').attr('x', m.l - 6).attr('y', y(t) + 4).attr('text-anchor', 'end').text(o.tick(t));
+    });
+    const tip = makeTip(el);
+    // ¿caben todas las etiquetas del eje x?
+    const probe2 = svg.append('text').attr('class', 'ox-tick').text(o.label(rows[0] || {}));
+    const labW = probe2.node().getComputedTextLength();
+    probe2.remove();
+    const every = Math.max(1, Math.ceil((labW + 6) / x.step()));
+    rows.forEach((d, i) => {
+      const v = o.value(d), bx = x(o.key(d)), bw = x.bandwidth();
+      svg.append('rect').attr('x', bx).attr('y', y(v)).attr('width', bw).attr('height', Math.max(0, y(0) - y(v))).attr('rx', Math.min(3, bw / 2)).style('fill', o.color(d));
+      if (bw >= 18) svg.append('text').attr('class', 'ox-bval').attr('x', bx + bw / 2).attr('y', y(v) - 5).attr('text-anchor', 'middle').text(o.top(d));
+      if (i % every === 0) svg.append('text').attr('class', 'ox-tick').attr('x', bx + bw / 2).attr('y', H - 6).attr('text-anchor', 'middle').text(o.label(d));
+      const hit = svg.append('rect').attr('class', 'ox-hit' + (o.onClick ? ' is-click' : '')).attr('x', bx - (x.step() - bw) / 2).attr('y', m.t).attr('width', x.step()).attr('height', H - m.t - m.b)
+        .on('mousemove', (event) => tip.show(event, o.label(d), o.tip(d)))
+        .on('mouseleave', () => tip.hide());
+      if (o.onClick) hit.on('click', () => o.onClick(d));
+    });
+  }
+
+  window.ox = { cop, copCorto, copCompleto, num, pct, veces, titulo, pick, ready, hbar, vbar, empty };
+})();
+</script>
+
+<script>
+dash.calc('resumen_proyectos', {
+  inputs: ['proyectos'],
+  title: 'Resumen de proyectos',
+  description: 'Totales de la base de la ART: proyectos, valor, empresas y municipios distintos, peso de educación y crecimiento 2018–2025.',
+  fn: (proyectos) => {
+    const valor = proyectos.reduce((a, p) => a + Number(p.valor_cop), 0);
+    const porAnio = (y) => proyectos.filter((p) => Number(p.anio) === y).reduce((a, p) => a + Number(p.valor_cop), 0);
+    const edu = proyectos.filter((p) => p.ministerio_id === 'mineducacion').reduce((a, p) => a + Number(p.valor_cop), 0);
+    return [{
+      proyectos: proyectos.length,
+      valor,
+      empresas: new Set(proyectos.flatMap((p) => String(p.contribuyente).split('; '))).size,
+      municipios: new Set(proyectos.map((p) => p.municipio)).size,
+      edu_share: edu / valor,
+      crecimiento: porAnio(2025) / porAnio(2018),
+    }];
+  },
+});
+dash.calc('por_ministerio', {
+  inputs: ['ministerios', 'proyectos'],
+  title: 'Proyectos por entidad',
+  description: 'Número de proyectos y valor aprobado 2018–2025 de cada entidad competente.',
+  fn: (ministerios, proyectos) => ministerios.map((m) => {
+    const ps = proyectos.filter((p) => p.ministerio_id === m.id);
+    return { id: m.id, proyectos: ps.length, valor_cop: ps.reduce((a, p) => a + Number(p.valor_cop), 0) };
+  }),
+});
+dash.calc('min_resumen', {
+  inputs: ['ministerios'],
+  title: 'Conteo de entidades',
+  description: 'Entidades competentes según su respaldo: decreto, línea en la base de la ART o por verificar.',
+  fn: (ministerios) => [{
+    total: ministerios.length,
+    decreto: ministerios.filter((m) => m.estado === 'Por decreto').length,
+    datos_art: ministerios.filter((m) => m.estado === 'En datos ART').length,
+    por_verificar: ministerios.filter((m) => m.estado === 'Por verificar').length,
+  }],
+});
+dash.calc('cupo_2026', {
+  inputs: ['cupos'],
+  title: 'Cupo total 2026',
+  description: 'Suma de las modalidades fiducia y convenio de la vigencia 2026.',
+  fn: (cupos) => [{ vigencia: '2026', total: cupos.filter((c) => c.vigencia === '2026').reduce((a, c) => a + Number(c.valor_cop), 0) }],
+});
+dash.calc('edu_suma', {
+  inputs: ['educacion_componentes'],
+  title: 'Suma de componentes de educación',
+  description: 'Suma del valor y de los proyectos de los cuatro componentes que reporta MinEducación.',
+  fn: (educacion_componentes) => [{
+    total: educacion_componentes.reduce((a, c) => a + Number(c.valor_cop), 0),
+    proyectos: educacion_componentes.reduce((a, c) => a + Number(c.proyectos), 0),
+  }],
+});
+
+dash.draw('kpi', (el) => {
+  const d = dash.data(el.dataset.source);
+  if (!ox.ready(el, d, false)) return;
+  const r = ox.pick(d.data, el);
+  const v = r ? Number(r[el.dataset.field]) : NaN;
+  const f = el.dataset.fmt;
+  el.textContent = f === 'cop' ? ox.cop(v) : f === 'pct' ? ox.pct(v) : f === 'x' ? ox.veces(v) : ox.num(v);
+});
+dash.draw('cota', (el) => {
+  const d = dash.data(el.dataset.source);
+  if (!ox.ready(el, d, false)) return;
+  const r = ox.pick(d.data, el);
+  el.textContent = r && r[el.dataset.field] ? r[el.dataset.field] : '';
+});
+</script>
+
+<script>
+// Filtros de la sección de proyectos (estado del navegador, sin consultas).
+window.oxSel = { anio: '', min: '', depto: '', mod: '', q: '', sort: 'anio', dir: -1 };
+window.oxDraws = ['f-anio', 'f-min', 'f-depto', 'f-mod', 'sel-n', 'sel-v', 'ch-anios', 'ch-min', 'ch-depto', 'ch-emp', 'ch-mod', 't-proyectos'];
+window.oxRedraw = () => {
+  const s = window.oxSel;
+  const activo = !!(s.anio || s.min || s.depto || s.mod || s.q);
+  document.querySelectorAll('.ox-limpiar').forEach((b) => { b.hidden = !activo; });
+  window.oxDraws.forEach((n) => dash.draw(n));
+};
+window.oxSet = (k, v) => { window.oxSel[k] = window.oxSel[k] === v ? '' : v; window.oxRedraw(); };
+// Filtra las filas; `salvo` deja fuera un filtro (para que cada gráfico muestre su propia dimensión completa).
+window.oxFiltrar = (rows, salvo) => {
+  const s = window.oxSel;
+  const q = s.q.trim().toLowerCase();
+  return rows.filter((p) => (salvo === 'anio' || !s.anio || String(p.anio) === s.anio)
+    && (salvo === 'min' || !s.min || p.ministerio === s.min)
+    && (salvo === 'depto' || !s.depto || p.departamento === s.depto)
+    && (salvo === 'mod' || !s.mod || p.modalidad === s.mod)
+    && (!q || (p.nombre + ' ' + p.municipio + ' ' + p.contribuyente + ' ' + p.departamentos).toLowerCase().includes(q)));
+};
+
+document.querySelectorAll('.ox-fq').forEach((i) => i.addEventListener('input', () => { window.oxSel.q = i.value; window.oxRedraw(); }));
+document.querySelectorAll('.ox-limpiar').forEach((b) => b.addEventListener('click', () => {
+  Object.assign(window.oxSel, { anio: '', min: '', depto: '', mod: '', q: '' });
+  document.querySelectorAll('.ox-fq').forEach((i) => { i.value = ''; });
+  window.oxRedraw();
+}));
+document.querySelectorAll('.ox-th').forEach((b) => b.addEventListener('click', () => {
+  const k = b.dataset.sort, s = window.oxSel;
+  s.dir = s.sort === k ? -s.dir : (k === 'anio' || k === 'valor_cop' ? -1 : 1);
+  s.sort = k;
+  document.querySelectorAll('#tabla-proyectos th').forEach((th) => {
+    const own = th.querySelector('.ox-th');
+    if (own && own.dataset.sort === k) th.setAttribute('aria-sort', s.dir < 0 ? 'descending' : 'ascending');
+    else th.removeAttribute('aria-sort');
+  });
+  dash.draw('t-proyectos');
+}));
+
+function oxSelect(name, key, todos, valores, etiqueta) {
+  dash.draw(name, (sel) => {
+    const d = dash.data('proyectos');
+    const vals = d.status === 'ok' ? valores(d.data) : [];
+    sel.replaceChildren(new Option(todos, ''), ...vals.map((v) => new Option(etiqueta ? etiqueta(v) : String(v), String(v))));
+    sel.value = window.oxSel[key];
+    sel.onchange = () => { window.oxSel[key] = sel.value; window.oxRedraw(); };
+  });
+}
+oxSelect('f-anio', 'anio', 'Todos', (r) => [...new Set(r.map((p) => p.anio))].sort((a, b) => b - a));
+oxSelect('f-min', 'min', 'Todos', (r) => [...new Set(r.map((p) => p.ministerio))].sort());
+oxSelect('f-depto', 'depto', 'Todos', (r) => [...new Set(r.map((p) => p.departamento))].sort(), ox.titulo);
+oxSelect('f-mod', 'mod', 'Ambas', (r) => [...new Set(r.map((p) => p.modalidad))].sort());
+
+dash.draw('sel-n', (el) => {
+  const d = dash.data('proyectos');
+  if (!ox.ready(el, d, false)) return;
+  el.textContent = ox.num(window.oxFiltrar(d.data).length);
+});
+dash.draw('sel-v', (el) => {
+  const d = dash.data('proyectos');
+  if (!ox.ready(el, d, false)) return;
+  el.textContent = ox.cop(d3.sum(window.oxFiltrar(d.data), (p) => Number(p.valor_cop)));
+});
+
+const oxColor = (activo, este) => (!activo || activo === este) ? oxAzules[0] : 'var(--cds-chart-muted)';
+
+dash.draw('ch-anios', (el) => {
+  const d = dash.data('proyectos');
+  if (!ox.ready(el, d, true)) return;
+  const rows = d3.rollups(window.oxFiltrar(d.data, 'anio'), (v) => ({ valor: d3.sum(v, (p) => Number(p.valor_cop)), n: v.length }), (p) => String(p.anio))
+    .map(([anio, a]) => ({ anio, ...a })).sort((a, b) => d3.ascending(a.anio, b.anio));
+  if (!rows.length) return ox.empty(el, 'Ningún proyecto coincide con los filtros');
+  ox.vbar(el, rows, {
+    aria: 'Valor aprobado por año',
+    key: (r) => r.anio, label: (r) => r.anio, value: (r) => r.valor,
+    tick: (t) => new Intl.NumberFormat('es-CO', { maximumFractionDigits: 2 }).format(t / 1e12),
+    top: (r) => ox.num(r.n),
+    color: (r) => oxColor(window.oxSel.anio, r.anio),
+    tip: (r) => [ox.cop(r.valor), ox.num(r.n) + ' proyectos'],
+    onClick: (r) => window.oxSet('anio', r.anio),
+  });
+});
+
+function oxRanking(el, campo, salvo, top, aria, explotar) {
+  const d = dash.data('proyectos');
+  if (!ox.ready(el, d, true)) return;
+  const filas = window.oxFiltrar(d.data, salvo);
+  const pares = explotar ? filas.flatMap((p) => String(p[campo]).split('; ').map((k) => [k, p])) : filas.map((p) => [p[campo], p]);
+  const rows = d3.rollups(pares, (v) => ({ valor: d3.sum(v, ([, p]) => Number(p.valor_cop)), n: v.length }), ([k]) => k)
+    .map(([k, a]) => ({ k, ...a })).sort((a, b) => b.valor - a.valor).slice(0, top);
+  if (!rows.length) return ox.empty(el, 'Ningún proyecto coincide con los filtros');
+  ox.hbar(el, rows, {
+    aria,
+    label: (r) => campo === 'ministerio' ? r.k : ox.titulo(r.k),
+    segs: (r) => [{ v: r.valor, color: salvo ? oxColor(window.oxSel[salvo], r.k) : oxAzules[0] }],
+    text: (r) => ox.copCorto(r.valor) + ' · ' + ox.num(r.n),
+    tip: (r) => [ox.cop(r.valor), ox.num(r.n) + ' proyectos'],
+    onClick: salvo ? (r) => window.oxSet(salvo, r.k) : null,
+  });
+}
+dash.draw('ch-min', (el) => oxRanking(el, 'ministerio', 'min', 13, 'Valor por ministerio'));
+dash.draw('ch-depto', (el) => oxRanking(el, 'departamento', 'depto', 10, 'Departamentos con más valor'));
+dash.draw('ch-emp', (el) => oxRanking(el, 'contribuyente', null, 10, 'Empresas con más valor', true));
+dash.draw('ch-mod', (el) => oxRanking(el, 'modalidad', 'mod', 2, 'Valor por modalidad'));
+
+dash.draw('t-proyectos', (tbody) => {
+  const d = dash.data('proyectos');
+  tbody.replaceChildren();
+  if (d.status !== 'ok') return;
+  const s = window.oxSel;
+  const rows = window.oxFiltrar(d.data).slice().sort((a, b) => {
+    const x = a[s.sort], y = b[s.sort];
+    const c = typeof x === 'number' ? x - y : String(x).localeCompare(String(y), 'es');
+    return (c || (b.valor_cop - a.valor_cop)) * (c ? s.dir : 1);
+  });
+  const td = (txt, cls) => { const c = document.createElement('td'); if (cls) c.className = cls; c.textContent = txt; return c; };
+  rows.forEach((p) => {
+    const tr = document.createElement('tr');
+    tr.dataset.key = p.id;
+    tr.append(
+      td(String(p.anio), 'ox-num'),
+      td(p.nombre, 'ox-caps ox-name'),
+      td(p.ministerio),
+      td(p.departamento, 'ox-caps ox-hide-n'),
+      td(p.municipio, 'ox-caps ox-hide-n'),
+      td(ox.copCompleto(Number(p.valor_cop)), 'ox-num ox-r'),
+      td(p.contribuyente, 'ox-hide-n'),
+    );
+    tbody.append(tr);
+  });
+});
+</script>
+
+<script>
+window.oxFiltro = { estado: '', q: '' };
+document.querySelectorAll('.ox-chip[data-estado]').forEach((b) => b.addEventListener('click', () => {
+  window.oxFiltro.estado = b.dataset.estado;
+  document.querySelectorAll('.ox-chip[data-estado]').forEach((c) => c.setAttribute('aria-pressed', String(c === b)));
+  dash.draw('mintabla');
+  dash.draw('mincount');
+}));
+document.querySelectorAll('.ox-buscar').forEach((i) => i.addEventListener('input', () => {
+  window.oxFiltro.q = i.value;
+  dash.draw('mintabla');
+  dash.draw('mincount');
+}));
+function oxMinFiltrados(rows) {
+  const f = window.oxFiltro;
+  const q = f.q.trim().toLowerCase();
+  return rows.filter((r) => (!f.estado || r.estado === f.estado)
+    && (!q || (r.ministerio + ' ' + r.sector + ' ' + r.base_legal).toLowerCase().includes(q)));
+}
+dash.draw('mintabla', (tbody) => {
+  const d = dash.data('ministerios');
+  const c = dash.data('por_ministerio');
+  const t = dash.data('tramite_por_ministerio');
+  tbody.replaceChildren();
+  if (d.status !== 'ok') return;
+  const cuenta = new Map((c.status === 'ok' ? c.data : []).map((r) => [r.id, r]));
+  const tram = new Map((t.status === 'ok' ? t.data : []).map((r) => [r.id, r]));
+  const td = (txt, cls) => { const x = document.createElement('td'); if (cls) x.className = cls; x.textContent = txt; return x; };
+  oxMinFiltrados(d.data).slice().sort((a, b) => ((cuenta.get(b.id) || {}).valor_cop || 0) - ((cuenta.get(a.id) || {}).valor_cop || 0)).forEach((r) => {
+    const tr = document.createElement('tr');
+    tr.dataset.key = r.id;
+    const pill = document.createElement('span');
+    pill.className = 'ox-pill ' + (r.estado === 'Por decreto' ? 'is-ok' : r.estado === 'En datos ART' ? 'is-info' : 'is-warn');
+    pill.textContent = r.estado;
+    const est = document.createElement('td');
+    est.append(pill);
+    const k = cuenta.get(r.id);
+    tr.append(
+      td(r.ministerio, 'ox-strong'),
+      td(r.sector),
+      td(r.base_legal, 'ox-hide-n'),
+      est,
+      td(k ? ox.num(k.proyectos) : '—', 'ox-num ox-r'),
+      td(k ? ox.cop(k.valor_cop) : '—', 'ox-num ox-r'),
+      td(tram.get(r.id) ? ox.num(tram.get(r.id).en_tramite) : '—', 'ox-num ox-r'),
+      td(tram.get(r.id) && tram.get(r.id).en_tramite ? ox.pct(tram.get(r.id).pct_devueltos) : '—', 'ox-num ox-r'),
+    );
+    tbody.append(tr);
+  });
+});
+dash.draw('mincount', (el) => {
+  const d = dash.data('ministerios');
+  if (!ox.ready(el, d, false)) return;
+  el.textContent = oxMinFiltrados(d.data).length + ' de ' + d.data.length + ' entidades';
+});
+</script>
+
+<script>
+document.querySelectorAll('.ox-sw[data-color]').forEach((s) => { s.style.background = oxAzules[Number(s.dataset.color)]; });
+
+dash.draw('cupos', (el) => {
+  const d = dash.data('cupos');
+  if (!ox.ready(el, d, true)) return;
+  const colorDe = (m) => m === 'Fiducia' ? oxAzules[0] : m === 'Convenio' ? oxAzules[1] : 'var(--cds-chart-muted)';
+  const grupos = d3.groups(d.data, (r) => r.vigencia).sort((a, b) => d3.ascending(a[0], b[0])).map(([vigencia, rs]) => ({ vigencia, rs }));
+  ox.hbar(el, grupos, {
+    aria: 'Cupo CONFIS por vigencia',
+    label: (g) => 'Vigencia ' + g.vigencia,
+    segs: (g) => g.rs.map((r) => ({ v: Number(r.valor_cop), color: colorDe(r.modalidad) })),
+    text: (g) => ox.copCorto(d3.sum(g.rs, (r) => Number(r.valor_cop))),
+    tip: (g) => g.rs.map((r) => r.modalidad + ': ' + ox.cop(Number(r.valor_cop))),
+  });
+});
+dash.draw('educomp', (el) => {
+  const d = dash.data('educacion_componentes');
+  if (!ox.ready(el, d, true)) return;
+  ox.hbar(el, d.data.slice().sort((a, b) => b.valor_cop - a.valor_cop), {
+    aria: 'Inversión en educación por componente',
+    label: (r) => r.componente,
+    segs: (r) => [{ v: Number(r.valor_cop), color: oxAzules[0] }],
+    text: (r) => ox.copCorto(Number(r.valor_cop)) + ' · ' + ox.num(r.proyectos),
+    tip: (r) => [ox.cop(Number(r.valor_cop)), ox.num(r.proyectos) + ' proyectos'],
+  });
+});
+dash.draw('edudep', (el) => {
+  const d = dash.data('educacion_departamentos');
+  if (!ox.ready(el, d, true)) return;
+  const rows = d.data.slice().sort((a, b) => b.valor_cop - a.valor_cop);
+  ox.hbar(el, rows, {
+    aria: 'Departamentos con mayor inversión en educación',
+    label: (r) => r.departamento,
+    segs: (r) => [{ v: Number(r.valor_cop), color: r === rows[0] ? oxAzules[0] : 'var(--cds-chart-muted)' }],
+    text: (r) => ox.copCorto(Number(r.valor_cop)),
+    tip: (r) => [ox.cop(Number(r.valor_cop))],
+  });
+});
+dash.draw('indtabla', (tbody) => {
+  const d = dash.data('indicadores');
+  tbody.replaceChildren();
+  if (d.status !== 'ok') return;
+  d.data.forEach((r) => {
+    const tr = document.createElement('tr');
+    tr.dataset.key = r.clave;
+    const td = (txt, cls) => { const c = document.createElement('td'); if (cls) c.className = cls; c.textContent = txt; return c; };
+    const v = Number(r.valor);
+    tr.append(
+      td(r.indicador, 'ox-strong'),
+      td(r.periodo),
+      td((r.cota ? r.cota + ' ' : '') + (r.unidad === 'COP' ? ox.cop(v) : ox.num(v) + ' ' + r.unidad), 'ox-num'),
+      td(r.fuente, 'ox-hide-n'),
+    );
+    tbody.append(tr);
+  });
+});
+</script>
+
+<script>
+// Proyectos en trámite (listado ART, corte 3 jul 2026).
+dash.calc('resumen_tramite', {
+  inputs: ['tramite'],
+  title: 'Resumen del trámite',
+  description: 'Totales del listado en trámite: proyectos, costo estimado, registrados y share devuelto con observaciones.',
+  fn: (tramite) => {
+    const dev = tramite.filter((p) => p.estado === 'Devuelto con observaciones');
+    return [{
+      proyectos: tramite.length,
+      costo: tramite.reduce((a, p) => a + Number(p.costo_cop), 0),
+      registrados: tramite.filter((p) => p.estado === 'Registrado: financiable').length,
+      devueltos: dev.length,
+      pct_devueltos: dev.length / tramite.length,
+    }];
+  },
+});
+dash.calc('tramite_por_ministerio', {
+  inputs: ['ministerios', 'tramite'],
+  title: 'Trámite por entidad',
+  description: 'Proyectos en trámite de cada entidad competente y qué parte fue devuelta con observaciones.',
+  fn: (ministerios, tramite) => ministerios.map((m) => {
+    const ps = tramite.filter((p) => p.ministerio_id === m.id);
+    const dev = ps.filter((p) => p.estado === 'Devuelto con observaciones').length;
+    return { id: m.id, en_tramite: ps.length, devueltos: dev, pct_devueltos: ps.length ? dev / ps.length : 0 };
+  }),
+});
+
+window.oxTr = { estado: '', min: '', depto: '', tipo: '', q: '', sort: 'costo_cop', dir: -1 };
+window.oxTrDraws = ['tf-estado', 'tf-min', 'tf-depto', 'tf-tipo', 'tsel-n', 'tsel-v', 'tch-estado', 'tch-min', 'tch-depto', 'tch-tipo', 't-tramite'];
+window.oxTrRedraw = () => {
+  const s = window.oxTr;
+  const activo = !!(s.estado || s.min || s.depto || s.tipo || s.q);
+  document.querySelectorAll('.ox-tlimpiar').forEach((b) => { b.hidden = !activo; });
+  window.oxTrDraws.forEach((n) => dash.draw(n));
+};
+window.oxTrSet = (k, v) => { window.oxTr[k] = window.oxTr[k] === v ? '' : v; window.oxTrRedraw(); };
+window.oxTrFiltrar = (rows, salvo) => {
+  const s = window.oxTr;
+  const q = s.q.trim().toLowerCase();
+  return rows.filter((p) => (salvo === 'estado' || !s.estado || p.estado === s.estado)
+    && (salvo === 'min' || !s.min || p.ministerio === s.min)
+    && (salvo === 'depto' || !s.depto || p.departamento === s.depto)
+    && (salvo === 'tipo' || !s.tipo || p.tipo_proponente === s.tipo)
+    && (!q || (p.nombre + ' ' + p.municipio + ' ' + p.proponente).toLowerCase().includes(q)));
+};
+window.oxEstadoColor = (orden) => orden === 4 ? oxAzules[0] : orden === 3 ? oxAzules[2] : orden === 2 ? oxAzules[1] : 'var(--cds-chart-status-critical)';
+document.querySelectorAll('.ox-sw[data-estado-color]').forEach((s) => { s.style.background = window.oxEstadoColor(Number(s.dataset.estadoColor)); });
+
+document.querySelectorAll('.ox-tq').forEach((i) => i.addEventListener('input', () => { window.oxTr.q = i.value; window.oxTrRedraw(); }));
+document.querySelectorAll('.ox-tlimpiar').forEach((b) => b.addEventListener('click', () => {
+  Object.assign(window.oxTr, { estado: '', min: '', depto: '', tipo: '', q: '' });
+  document.querySelectorAll('.ox-tq').forEach((i) => { i.value = ''; });
+  window.oxTrRedraw();
+}));
+document.querySelectorAll('.ox-tth').forEach((b) => b.addEventListener('click', () => {
+  const k = b.dataset.sort, s = window.oxTr;
+  s.dir = s.sort === k ? -s.dir : (k === 'costo_cop' ? -1 : 1);
+  s.sort = k;
+  document.querySelectorAll('#tabla-tramite th').forEach((th) => {
+    const own = th.querySelector('.ox-tth');
+    if (own && own.dataset.sort === k) th.setAttribute('aria-sort', s.dir < 0 ? 'descending' : 'ascending');
+    else th.removeAttribute('aria-sort');
+  });
+  dash.draw('t-tramite');
+}));
+
+function oxTrSelect(name, key, todos, valores, etiqueta) {
+  dash.draw(name, (sel) => {
+    const d = dash.data('tramite');
+    const vals = d.status === 'ok' ? valores(d.data) : [];
+    sel.replaceChildren(new Option(todos, ''), ...vals.map((v) => new Option(etiqueta ? etiqueta(v) : String(v), String(v))));
+    sel.value = window.oxTr[key];
+    sel.onchange = () => { window.oxTr[key] = sel.value; window.oxTrRedraw(); };
+  });
+}
+const oxPorOrden = (r) => [...new Map(r.map((p) => [p.estado, p.estado_orden]))].sort((a, b) => b[1] - a[1]).map(([e]) => e);
+oxTrSelect('tf-estado', 'estado', 'Todos', oxPorOrden);
+oxTrSelect('tf-min', 'min', 'Todos', (r) => [...new Set(r.map((p) => p.ministerio))].sort());
+oxTrSelect('tf-depto', 'depto', 'Todos', (r) => [...new Set(r.map((p) => p.departamento))].sort(), ox.titulo);
+oxTrSelect('tf-tipo', 'tipo', 'Todos', (r) => [...new Set(r.map((p) => p.tipo_proponente))].sort());
+
+dash.draw('tsel-n', (el) => {
+  const d = dash.data('tramite');
+  if (!ox.ready(el, d, false)) return;
+  el.textContent = ox.num(window.oxTrFiltrar(d.data).length);
+});
+dash.draw('tsel-v', (el) => {
+  const d = dash.data('tramite');
+  if (!ox.ready(el, d, false)) return;
+  el.textContent = ox.cop(d3.sum(window.oxTrFiltrar(d.data), (p) => Number(p.costo_cop)));
+});
+
+dash.draw('tch-estado', (el) => {
+  const d = dash.data('tramite');
+  if (!ox.ready(el, d, true)) return;
+  const filas = window.oxTrFiltrar(d.data, 'estado');
+  const total = filas.length;
+  const rows = d3.rollups(filas, (v) => ({ n: v.length, costo: d3.sum(v, (p) => Number(p.costo_cop)), orden: v[0].estado_orden }), (p) => p.estado)
+    .map(([k, a]) => ({ k, ...a })).sort((a, b) => b.orden - a.orden);
+  if (!rows.length) return ox.empty(el, 'Ningún proyecto coincide con los filtros');
+  const sel = window.oxTr.estado;
+  ox.hbar(el, rows, {
+    aria: 'Proyectos en trámite por estado',
+    label: (r) => r.k,
+    segs: (r) => [{ v: r.n, color: (!sel || sel === r.k) ? window.oxEstadoColor(r.orden) : 'var(--cds-chart-muted)' }],
+    text: (r) => ox.num(r.n) + ' · ' + ox.pct(r.n / total),
+    tip: (r) => [ox.num(r.n) + ' proyectos', ox.cop(r.costo) + ' de costo estimado'],
+    onClick: (r) => window.oxTrSet('estado', r.k),
+  });
+});
+
+dash.draw('tch-min', (el) => {
+  const d = dash.data('tramite');
+  if (!ox.ready(el, d, true)) return;
+  const filas = window.oxTrFiltrar(d.data, 'min');
+  const rows = d3.rollups(filas, (v) => v, (p) => p.ministerio).map(([k, v]) => ({
+    k, n: v.length,
+    por: [4, 3, 2, 1].map((o) => ({ o, n: v.filter((p) => p.estado_orden === o).length })),
+  })).sort((a, b) => b.n - a.n);
+  if (!rows.length) return ox.empty(el, 'Ningún proyecto coincide con los filtros');
+  const sel = window.oxTr.min;
+  ox.hbar(el, rows, {
+    aria: 'Estado del trámite por ministerio',
+    label: (r) => r.k,
+    segs: (r) => r.por.filter((s) => s.n).map((s) => ({ v: s.n, color: (!sel || sel === r.k) ? window.oxEstadoColor(s.o) : 'var(--cds-chart-muted)' })),
+    text: (r) => ox.num(r.n) + ' · ' + ox.pct(r.por[3].n / r.n) + ' dev.',
+    tip: (r) => ['Registrados: ' + ox.num(r.por[0].n), 'Control DNP: ' + ox.num(r.por[1].n), 'En revisión: ' + ox.num(r.por[2].n), 'Devueltos: ' + ox.num(r.por[3].n)],
+    onClick: (r) => window.oxTrSet('min', r.k),
+  });
+});
+
+function oxTrRanking(el, campo, salvo, top, aria) {
+  const d = dash.data('tramite');
+  if (!ox.ready(el, d, true)) return;
+  const rows = d3.rollups(window.oxTrFiltrar(d.data, salvo), (v) => ({ costo: d3.sum(v, (p) => Number(p.costo_cop)), n: v.length }), (p) => p[campo])
+    .map(([k, a]) => ({ k, ...a })).sort((a, b) => b.costo - a.costo).slice(0, top);
+  if (!rows.length) return ox.empty(el, 'Ningún proyecto coincide con los filtros');
+  const sel = window.oxTr[salvo];
+  ox.hbar(el, rows, {
+    aria,
+    label: (r) => campo === 'departamento' ? ox.titulo(r.k) : r.k,
+    segs: (r) => [{ v: r.costo, color: (!sel || sel === r.k) ? oxAzules[0] : 'var(--cds-chart-muted)' }],
+    text: (r) => ox.copCorto(r.costo) + ' · ' + ox.num(r.n),
+    tip: (r) => [ox.cop(r.costo), ox.num(r.n) + ' proyectos'],
+    onClick: (r) => window.oxTrSet(salvo, r.k),
+  });
+}
+dash.draw('tch-depto', (el) => oxTrRanking(el, 'departamento', 'depto', 10, 'Departamentos con más costo en trámite'));
+dash.draw('tch-tipo', (el) => oxTrRanking(el, 'tipo_proponente', 'tipo', 4, 'Costo por tipo de proponente'));
+
+dash.draw('t-tramite', (tbody) => {
+  const d = dash.data('tramite');
+  tbody.replaceChildren();
+  if (d.status !== 'ok') return;
+  const s = window.oxTr;
+  const rows = window.oxTrFiltrar(d.data).slice().sort((a, b) => {
+    const x = a[s.sort], y = b[s.sort];
+    const c = typeof x === 'number' ? x - y : String(x).localeCompare(String(y), 'es');
+    return c ? c * s.dir : b.costo_cop - a.costo_cop;
+  });
+  const td = (txt, cls) => { const c = document.createElement('td'); if (cls) c.className = cls; c.textContent = txt; return c; };
+  rows.forEach((p) => {
+    const tr = document.createElement('tr');
+    tr.dataset.key = p.id;
+    const est = document.createElement('td');
+    const pill = document.createElement('span');
+    pill.className = 'ox-pill ' + (p.estado_orden === 4 ? 'is-ok' : p.estado_orden === 1 ? 'is-bad' : 'is-info');
+    pill.textContent = p.estado;
+    est.append(pill);
+    tr.append(
+      est,
+      td(p.nombre, 'ox-caps ox-name'),
+      td(p.ministerio),
+      td(p.departamento, 'ox-caps ox-hide-n'),
+      td(p.municipio, 'ox-caps ox-hide-n'),
+      td(ox.copCompleto(Number(p.costo_cop)), 'ox-num ox-r'),
+      td(p.proponente, 'ox-caps ox-hide-n'),
+      td(p.fase, 'ox-hide-n'),
+    );
+    tbody.append(tr);
+  });
+});
+</script>
+
+<script>
+// Cruce: aprobados 2018–2025 frente a trámite 2026.
+dash.calc('cruce_resumen', {
+  inputs: ['tramite', 'cupos', 'cruce_municipios'],
+  title: 'Resumen del cruce',
+  description: 'Cartera registrada frente al cupo 2026 y municipios por situación (nuevos, sin cartera nueva, con ambos).',
+  fn: (tramite, cupos, cruce_municipios) => {
+    const costo_registrado = tramite.filter((p) => p.estado === 'Registrado: financiable').reduce((a, p) => a + Number(p.costo_cop), 0);
+    const cupo_2026 = cupos.filter((c) => c.vigencia === '2026').reduce((a, c) => a + Number(c.valor_cop), 0);
+    const nuevos = cruce_municipios.filter((m) => m.categoria === 'Nuevo: solo en trámite');
+    return [{
+      costo_registrado, cupo_2026, ratio_cupo: costo_registrado / cupo_2026,
+      mun_nuevos: nuevos.length,
+      costo_nuevos: nuevos.reduce((a, m) => a + Number(m.tram_costo), 0),
+      mun_solo_aprob: cruce_municipios.filter((m) => m.categoria === 'Solo aprobados').length,
+      mun_ambos: cruce_municipios.filter((m) => m.categoria === 'Con aprobados y en trámite').length,
+    }];
+  },
+});
+dash.calc('cruce_ministerio', {
+  inputs: ['proyectos', 'tramite'],
+  title: 'Aprobado 2025 y cartera por ministerio',
+  description: 'Valor aprobado en 2025, cartera financiable (registrada) y cartera pendiente (devuelta o en revisión) de cada ministerio.',
+  fn: (proyectos, tramite) => {
+    const nombres = [...new Set([...proyectos.map((p) => p.ministerio), ...tramite.map((p) => p.ministerio)])];
+    return nombres.map((ministerio) => ({
+      ministerio,
+      aprob_2025: proyectos.filter((p) => p.ministerio === ministerio && Number(p.anio) === 2025).reduce((a, p) => a + Number(p.valor_cop), 0),
+      financiable: tramite.filter((p) => p.ministerio === ministerio && p.estado === 'Registrado: financiable').reduce((a, p) => a + Number(p.costo_cop), 0),
+      pendiente: tramite.filter((p) => p.ministerio === ministerio && p.estado !== 'Registrado: financiable').reduce((a, p) => a + Number(p.costo_cop), 0),
+    })).sort((a, b) => (b.aprob_2025 + b.financiable + b.pendiente) - (a.aprob_2025 + a.financiable + a.pendiente));
+  },
+});
+dash.calc('cruce_depto', {
+  inputs: ['cruce_municipios'],
+  title: 'Historia y cartera por departamento',
+  description: 'Suma por departamento del valor aprobado 2018–2025 y del costo en trámite 2026 de sus municipios.',
+  fn: (cruce_municipios) => {
+    const m = new Map();
+    cruce_municipios.forEach((r) => {
+      const a = m.get(r.departamento) || { departamento: r.departamento, aprob_valor: 0, tram_costo: 0, mun_nuevos: 0 };
+      a.aprob_valor += Number(r.aprob_valor);
+      a.tram_costo += Number(r.tram_costo);
+      if (r.categoria === 'Nuevo: solo en trámite') a.mun_nuevos += 1;
+      m.set(r.departamento, a);
+    });
+    return [...m.values()].sort((a, b) => (b.aprob_valor + b.tram_costo) - (a.aprob_valor + a.tram_costo));
+  },
+});
+
+// Barras agrupadas: etiqueta arriba y una barra delgada por serie.
+function oxGbar(el, rows, o) {
+  el.replaceChildren();
+  const W = Math.max(240, Math.floor(el.clientWidth));
+  const n = o.series.length, bh = 9, gap = 3;
+  const rowH = 20 + n * (bh + gap) + 8;
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${rows.length * rowH}`).attr('role', 'img').attr('aria-label', o.aria);
+  const probe = svg.append('text').attr('class', 'ox-bval');
+  let valW = 0;
+  rows.forEach((d) => o.series.forEach((s) => { probe.text(ox.copCorto(s.v(d))); valW = Math.max(valW, probe.node().getComputedTextLength()); }));
+  probe.remove();
+  const max = d3.max(rows, (d) => d3.max(o.series, (s) => s.v(d))) || 1;
+  const x = d3.scaleLinear([0, max], [0, Math.max(40, W - valW - 10)]);
+  const tipEl = document.createElement('div');
+  tipEl.className = 'ox-tip';
+  tipEl.hidden = true;
+  el.append(tipEl);
+  rows.forEach((d, i) => {
+    const g = svg.append('g').attr('transform', `translate(0,${i * rowH})`);
+    const lab = g.append('text').attr('class', 'ox-blabel').attr('x', 0).attr('y', 13).text(o.label(d));
+    let s0 = lab.text();
+    while (s0.length > 4 && lab.node().getComputedTextLength() > W) { s0 = s0.slice(0, -2); lab.text(s0.trimEnd() + '…'); }
+    o.series.forEach((s, j) => {
+      const y = 19 + j * (bh + gap);
+      const v = s.v(d);
+      g.append('rect').attr('x', 0).attr('y', y).attr('height', bh).attr('rx', 2).attr('width', Math.max(v > 0 ? 2 : 0, x(v))).style('fill', s.color);
+      g.append('text').attr('class', 'ox-bval').attr('x', x(v) + 6).attr('y', y + bh - 1).text(ox.copCorto(v));
+    });
+    g.append('rect').attr('class', 'ox-hit').attr('x', 0).attr('y', 0).attr('width', W).attr('height', rowH)
+      .on('mousemove', (event) => {
+        const h = document.createElement('span');
+        h.className = 'ox-tip-h';
+        h.textContent = o.label(d);
+        tipEl.replaceChildren(h, ...o.series.map((s) => { const t = document.createElement('span'); t.textContent = s.name + ': ' + ox.cop(s.v(d)); return t; }));
+        tipEl.hidden = false;
+        const box = el.getBoundingClientRect();
+        let tx = event.clientX - box.left + 12, ty = event.clientY - box.top - tipEl.offsetHeight - 8;
+        if (tx + tipEl.offsetWidth > box.width) tx = Math.max(0, box.width - tipEl.offsetWidth);
+        if (ty < 0) ty = event.clientY - box.top + 14;
+        tipEl.style.left = tx + 'px';
+        tipEl.style.top = ty + 'px';
+      })
+      .on('mouseleave', () => { tipEl.hidden = true; });
+  });
+}
+
+dash.draw('ch-cmin', (el) => {
+  const d = dash.data('cruce_ministerio');
+  if (!ox.ready(el, d, true)) return;
+  oxGbar(el, d.data, {
+    aria: 'Aprobado 2025 y cartera por ministerio',
+    label: (r) => r.ministerio,
+    series: [
+      { name: 'Aprobado 2025', v: (r) => Number(r.aprob_2025), color: oxAzules[0] },
+      { name: 'Financiable hoy', v: (r) => Number(r.financiable), color: oxAzules[1] },
+      { name: 'Pendiente', v: (r) => Number(r.pendiente), color: 'var(--cds-chart-muted)' },
+    ],
+  });
+});
+dash.draw('ch-cdep', (el) => {
+  const d = dash.data('cruce_depto');
+  if (!ox.ready(el, d, true)) return;
+  oxGbar(el, d.data.slice(0, 12), {
+    aria: 'Historia y cartera por departamento',
+    label: (r) => ox.titulo(r.departamento),
+    series: [
+      { name: 'Aprobado 2018–2025', v: (r) => Number(r.aprob_valor), color: oxAzules[0] },
+      { name: 'En trámite 2026', v: (r) => Number(r.tram_costo), color: oxAzules[1] },
+    ],
+  });
+});
+
+window.oxCr = { cat: '', q: '', sort: 'tram_costo', dir: -1 };
+const oxCrFiltrar = (rows) => {
+  const q = window.oxCr.q.trim().toLowerCase();
+  return rows.filter((r) => (!window.oxCr.cat || r.categoria === window.oxCr.cat)
+    && (!q || (r.municipio + ' ' + r.departamento).toLowerCase().includes(q)));
+};
+document.querySelectorAll('.ox-cchip').forEach((b) => b.addEventListener('click', () => {
+  window.oxCr.cat = b.dataset.cat;
+  document.querySelectorAll('.ox-cchip').forEach((c) => c.setAttribute('aria-pressed', String(c === b)));
+  dash.draw('t-cruce');
+  dash.draw('ccount');
+}));
+document.querySelectorAll('.ox-cq').forEach((i) => i.addEventListener('input', () => {
+  window.oxCr.q = i.value;
+  dash.draw('t-cruce');
+  dash.draw('ccount');
+}));
+document.querySelectorAll('.ox-cth').forEach((b) => b.addEventListener('click', () => {
+  const k = b.dataset.sort, s = window.oxCr;
+  s.dir = s.sort === k ? -s.dir : (k === 'municipio' || k === 'departamento' ? 1 : -1);
+  s.sort = k;
+  document.querySelectorAll('#tabla-cruce th').forEach((th) => {
+    const own = th.querySelector('.ox-cth');
+    if (own && own.dataset.sort === k) th.setAttribute('aria-sort', s.dir < 0 ? 'descending' : 'ascending');
+    else th.removeAttribute('aria-sort');
+  });
+  dash.draw('t-cruce');
+}));
+dash.draw('ccount', (el) => {
+  const d = dash.data('cruce_municipios');
+  if (!ox.ready(el, d, false)) return;
+  el.textContent = ox.num(oxCrFiltrar(d.data).length) + ' de ' + ox.num(d.data.length) + ' municipios';
+});
+dash.draw('t-cruce', (tbody) => {
+  const d = dash.data('cruce_municipios');
+  tbody.replaceChildren();
+  if (d.status !== 'ok') return;
+  const s = window.oxCr;
+  const rows = oxCrFiltrar(d.data).slice().sort((a, b) => {
+    const x = a[s.sort], y = b[s.sort];
+    const c = typeof x === 'number' ? x - y : String(x).localeCompare(String(y), 'es');
+    return c ? c * s.dir : (b.aprob_valor + b.tram_costo) - (a.aprob_valor + a.tram_costo);
+  });
+  const td = (txt, cls) => { const c = document.createElement('td'); if (cls) c.className = cls; c.textContent = txt; return c; };
+  rows.forEach((r) => {
+    const tr = document.createElement('tr');
+    tr.dataset.key = r.id;
+    const cat = document.createElement('td');
+    const pill = document.createElement('span');
+    pill.className = 'ox-pill ' + (r.categoria === 'Nuevo: solo en trámite' ? 'is-ok' : r.categoria === 'Solo aprobados' ? 'is-warn' : 'is-info');
+    pill.textContent = r.categoria;
+    cat.append(pill);
+    tr.append(
+      td(r.municipio, 'ox-caps ox-strong'),
+      td(r.departamento, 'ox-caps ox-hide-n'),
+      cat,
+      td(ox.num(r.aprob_n), 'ox-num ox-r'),
+      td(r.aprob_valor ? ox.cop(r.aprob_valor) : '—', 'ox-num ox-r'),
+      td(ox.num(r.tram_n), 'ox-num ox-r'),
+      td(r.tram_costo ? ox.cop(r.tram_costo) : '—', 'ox-num ox-r'),
+      td(ox.num(r.tram_registrados), 'ox-num ox-r ox-hide-n'),
+      td(ox.num(r.tram_devueltos), 'ox-num ox-r ox-hide-n'),
+    );
+    tbody.append(tr);
+  });
+});
+</script>
+
+<script>
+// Ejecución: fichas de MapaInversiones (DNP) de los proyectos aprobados.
+dash.calc('resumen_ejecucion', {
+  inputs: ['ejecucion'],
+  title: 'Resumen de ejecución',
+  description: 'Proyectos aprobados por situación de ejecución en el DNP, plazos vencidos y avance físico promedio de los que están en obra.',
+  fn: (ejecucion) => {
+    const sit = (o) => ejecucion.filter((p) => Number(p.situacion_orden) === o);
+    const enObra = sit(2);
+    const venc = ejecucion.filter((p) => p.vencido === true);
+    return [{
+      terminadas: sit(1).length,
+      con_avance: enObra.length,
+      avance_promedio: enObra.length ? enObra.reduce((a, p) => a + Number(p.avance_fisico), 0) / enObra.length / 100 : 0,
+      sin_avance: sit(3).length,
+      viables: sit(4).length,
+      vencidos: venc.length,
+      valor_vencidos: venc.reduce((a, p) => a + Number(p.valor_cop), 0),
+      con_dato_fisico: ejecucion.filter((p) => Number(p.avance_fisico) > 0).length,
+    }];
+  },
+});
+
+window.oxSitColor = (o) => o === 1 ? oxAzules[0] : o === 2 ? oxAzules[2] : o === 3 ? oxAzules[1] : 'var(--cds-chart-muted)';
+document.querySelectorAll('.ox-sw[data-sit-color]').forEach((s) => { s.style.background = window.oxSitColor(Number(s.dataset.sitColor)); });
+
+window.oxEj = { sit: '', anio: '', min: '', q: '', sort: 'valor_cop', dir: -1 };
+window.oxEjDraws = ['ech-anio', 'ech-min', 'ech-pago', 'ecount', 't-eje'];
+window.oxEjRedraw = () => {
+  document.querySelectorAll('.ox-elimpiar').forEach((b) => { b.hidden = !(window.oxEj.anio || window.oxEj.min); });
+  window.oxEjDraws.forEach((n) => dash.draw(n));
+};
+window.oxEjSet = (k, v) => { window.oxEj[k] = window.oxEj[k] === v ? '' : v; window.oxEjRedraw(); };
+const oxEjFiltrar = (rows, salvo) => {
+  const s = window.oxEj;
+  const q = s.q.trim().toLowerCase();
+  return rows.filter((p) => (salvo === 'sit' || !s.sit || (s.sit === 'vencido' ? p.vencido === true : String(p.situacion_orden) === s.sit))
+    && (salvo === 'anio' || !s.anio || String(p.anio) === s.anio)
+    && (salvo === 'min' || !s.min || p.ministerio === s.min)
+    && (!q || (p.nombre + ' ' + p.municipio + ' ' + p.bpin).toLowerCase().includes(q)));
+};
+document.querySelectorAll('.ox-echip').forEach((b) => b.addEventListener('click', () => {
+  window.oxEj.sit = b.dataset.sit;
+  document.querySelectorAll('.ox-echip').forEach((c) => c.setAttribute('aria-pressed', String(c === b)));
+  window.oxEjRedraw();
+}));
+document.querySelectorAll('.ox-elimpiar').forEach((b) => b.addEventListener('click', () => { window.oxEj.anio = ''; window.oxEj.min = ''; window.oxEjRedraw(); }));
+document.querySelectorAll('.ox-eq').forEach((i) => i.addEventListener('input', () => { window.oxEj.q = i.value; window.oxEjRedraw(); }));
+document.querySelectorAll('.ox-eth').forEach((b) => b.addEventListener('click', () => {
+  const k = b.dataset.sort, s = window.oxEj;
+  s.dir = s.sort === k ? -s.dir : (k === 'nombre' || k === 'ministerio' || k === 'municipio' || k === 'situacion_orden' ? 1 : -1);
+  s.sort = k;
+  document.querySelectorAll('#tabla-eje th').forEach((th) => {
+    const own = th.querySelector('.ox-eth');
+    if (own && own.dataset.sort === k) th.setAttribute('aria-sort', s.dir < 0 ? 'descending' : 'ascending');
+    else th.removeAttribute('aria-sort');
+  });
+  dash.draw('t-eje');
+}));
+
+const oxPorSit = (v) => [1, 2, 3, 4, 5].map((o) => ({ o, n: v.filter((p) => Number(p.situacion_orden) === o).length }));
+const oxSitTip = (por) => ['Terminadas: ' + ox.num(por[0].n), 'Con avance: ' + ox.num(por[1].n), 'Sin avance reportado: ' + ox.num(por[2].n), 'Sin seguimiento: ' + ox.num(por[3].n)].concat(por[4].n ? ['Sin ficha: ' + ox.num(por[4].n)] : []);
+
+dash.draw('ech-anio', (el) => {
+  const d = dash.data('ejecucion');
+  if (!ox.ready(el, d, true)) return;
+  const rows = d3.rollups(oxEjFiltrar(d.data, 'anio'), (v) => ({ n: v.length, por: oxPorSit(v) }), (p) => String(p.anio))
+    .map(([k, a]) => ({ k, ...a })).sort((a, b) => d3.ascending(a.k, b.k));
+  if (!rows.length) return ox.empty(el, 'Ningún proyecto coincide con los filtros');
+  const sel = window.oxEj.anio;
+  ox.hbar(el, rows, {
+    aria: 'Situación de ejecución por año de aprobación',
+    label: (r) => r.k,
+    segs: (r) => r.por.filter((s) => s.n).map((s) => ({ v: s.n, color: (!sel || sel === r.k) ? window.oxSitColor(s.o) : 'var(--cds-chart-muted)' })),
+    text: (r) => ox.num(r.n),
+    tip: (r) => oxSitTip(r.por),
+    onClick: (r) => window.oxEjSet('anio', r.k),
+  });
+});
+
+dash.draw('ech-min', (el) => {
+  const d = dash.data('ejecucion');
+  if (!ox.ready(el, d, true)) return;
+  const rows = d3.rollups(oxEjFiltrar(d.data, 'min'), (v) => ({ n: v.length, por: oxPorSit(v), venc: v.filter((p) => p.vencido === true).length }), (p) => p.ministerio)
+    .map(([k, a]) => ({ k, ...a })).sort((a, b) => b.n - a.n);
+  if (!rows.length) return ox.empty(el, 'Ningún proyecto coincide con los filtros');
+  const sel = window.oxEj.min;
+  ox.hbar(el, rows, {
+    aria: 'Situación de ejecución por ministerio',
+    label: (r) => r.k,
+    segs: (r) => r.por.filter((s) => s.n).map((s) => ({ v: s.n, color: (!sel || sel === r.k) ? window.oxSitColor(s.o) : 'var(--cds-chart-muted)' })),
+    text: (r) => ox.num(r.n) + ' · ' + ox.num(r.venc) + ' venc.',
+    tip: (r) => oxSitTip(r.por).concat(['Plazo vencido: ' + ox.num(r.venc)]),
+    onClick: (r) => window.oxEjSet('min', r.k),
+  });
+});
+
+dash.draw('ech-pago', (el) => {
+  const d = dash.data('ejecucion');
+  if (!ox.ready(el, d, true)) return;
+  const rows = d3.rollups(oxEjFiltrar(d.data, 'anio').filter((p) => p.pago_pct != null), (v) => ({
+    n: v.length, pagado: d3.sum(v, (p) => Number(p.pago_cop)), valor: d3.sum(v, (p) => Number(p.valor_cop)),
+  }), (p) => String(p.anio)).map(([k, a]) => ({ k, ...a, pct: a.pagado / a.valor })).sort((a, b) => d3.ascending(a.k, b.k));
+  if (!rows.length) return ox.empty(el, 'Ningún proyecto con pagos coherentes en la selección');
+  ox.vbar(el, rows, {
+    aria: 'Pagado frente a valor aprobado por año',
+    key: (r) => r.k, label: (r) => r.k, value: (r) => r.pct,
+    tick: (t) => new Intl.NumberFormat('es-CO', { maximumFractionDigits: 0 }).format(t * 100) + ' %',
+    top: (r) => ox.pct(r.pct),
+    color: (r) => (!window.oxEj.anio || window.oxEj.anio === r.k) ? oxAzules[0] : 'var(--cds-chart-muted)',
+    tip: (r) => [ox.cop(r.pagado) + ' pagados de ' + ox.cop(r.valor), ox.num(r.n) + ' proyectos con pago coherente'],
+    onClick: (r) => window.oxEjSet('anio', r.k),
+  });
+});
+
+dash.draw('ecount', (el) => {
+  const d = dash.data('ejecucion');
+  if (!ox.ready(el, d, false)) return;
+  el.textContent = ox.num(oxEjFiltrar(d.data).length) + ' de ' + ox.num(d.data.length) + ' proyectos';
+});
+
+dash.draw('t-eje', (tbody) => {
+  const d = dash.data('ejecucion');
+  tbody.replaceChildren();
+  if (d.status !== 'ok') return;
+  const s = window.oxEj;
+  const val = (p, k) => (p[k] == null ? -1 : p[k]);
+  const rows = oxEjFiltrar(d.data).slice().sort((a, b) => {
+    const x = val(a, s.sort), y = val(b, s.sort);
+    const c = typeof x === 'number' && typeof y === 'number' ? x - y : String(x).localeCompare(String(y), 'es');
+    return c ? c * s.dir : b.valor_cop - a.valor_cop;
+  });
+  const td = (txt, cls) => { const c = document.createElement('td'); if (cls) c.className = cls; c.textContent = txt; return c; };
+  rows.forEach((p) => {
+    const tr = document.createElement('tr');
+    tr.dataset.key = p.id;
+    const est = document.createElement('td');
+    const pill = document.createElement('span');
+    pill.className = 'ox-pill ' + (Number(p.situacion_orden) === 1 ? 'is-ok' : p.vencido ? 'is-bad' : 'is-info');
+    pill.textContent = p.situacion + (p.vencido ? ' · plazo vencido' : '');
+    est.append(pill);
+    const nom = document.createElement('td');
+    nom.className = 'ox-name';
+    const a = document.createElement('a');
+    a.href = 'https://mapainversiones.dnp.gov.co/Home/FichaProyectosMenuAllUsers?Bpin=' + encodeURIComponent(p.bpin);
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.className = 'ox-caps';
+    a.textContent = p.nombre;
+    nom.append(a);
+    tr.append(
+      est, nom,
+      td(String(p.anio), 'ox-num'),
+      td(p.ministerio, 'ox-hide-n'),
+      td(p.municipio, 'ox-caps ox-hide-n'),
+      td(ox.copCompleto(Number(p.valor_cop)), 'ox-num ox-r'),
+      td(Number(p.avance_fisico) > 0 ? ox.pct(Number(p.avance_fisico) / 100) : '—', 'ox-num ox-r'),
+      td(p.pago_pct != null ? ox.pct(Number(p.pago_pct)) : (p.pago_incoherente ? 'Dato agregado' : '—'), 'ox-num ox-r ox-hide-n'),
+      td(p.horizonte || '—', 'ox-num ox-hide-n'),
+    );
+    tbody.append(tr);
+  });
+});
+</script>
+
+<script>
+// Revisión de proyectos con plazo vencido.
+dash.calc('resumen_vencidos', {
+  inputs: ['vencidos'],
+  title: 'Resumen de vencidos',
+  description: 'Proyectos con plazo vencido por nivel de alerta, su valor y los meses vencidos en promedio.',
+  fn: (vencidos) => {
+    const nivel = (o) => vencidos.filter((p) => Number(p.nivel_orden) === o);
+    const valor = (v) => v.reduce((a, p) => a + Number(p.valor_cop), 0);
+    return [{
+      total: vencidos.length,
+      criticos: nivel(1).length, valor_criticos: valor(nivel(1)),
+      altos: nivel(2).length, valor_altos: valor(nivel(2)),
+      pagados: nivel(3).length, valor_pagados: valor(nivel(3)),
+      medios: nivel(4).length,
+      meses_promedio: vencidos.length ? vencidos.reduce((a, p) => a + Number(p.meses_vencido), 0) / vencidos.length : 0,
+    }];
+  },
+});
+
+window.oxNivelColor = (o) => o === 1 ? 'var(--cds-chart-status-critical)' : o === 2 ? oxAzules[1] : o === 3 ? oxAzules[2] : oxAzules[0];
+document.querySelectorAll('.ox-sw[data-nivel-color]').forEach((s) => { s.style.background = window.oxNivelColor(Number(s.dataset.nivelColor)); });
+
+window.oxVe = { nivel: '', min: '', depto: '', q: '' };
+window.oxVeRedraw = () => {
+  document.querySelectorAll('.ox-vlimpiar').forEach((b) => { b.hidden = !(window.oxVe.min || window.oxVe.depto); });
+  ['vch-min', 'vch-depto', 'vcount', 't-venc'].forEach((n) => dash.draw(n));
+};
+window.oxVeSet = (k, v) => { window.oxVe[k] = window.oxVe[k] === v ? '' : v; window.oxVeRedraw(); };
+const oxVeFiltrar = (rows, salvo) => {
+  const s = window.oxVe;
+  const q = s.q.trim().toLowerCase();
+  return rows.filter((p) => (salvo === 'nivel' || !s.nivel || String(p.nivel_orden) === s.nivel)
+    && (salvo === 'min' || !s.min || p.ministerio === s.min)
+    && (salvo === 'depto' || !s.depto || p.departamento === s.depto)
+    && (!q || (p.nombre + ' ' + p.municipio + ' ' + p.bpin).toLowerCase().includes(q)));
+};
+document.querySelectorAll('.ox-vchip').forEach((b) => b.addEventListener('click', () => {
+  window.oxVe.nivel = b.dataset.nivel;
+  document.querySelectorAll('.ox-vchip').forEach((c) => c.setAttribute('aria-pressed', String(c === b)));
+  window.oxVeRedraw();
+}));
+document.querySelectorAll('.ox-vlimpiar').forEach((b) => b.addEventListener('click', () => { window.oxVe.min = ''; window.oxVe.depto = ''; window.oxVeRedraw(); }));
+document.querySelectorAll('.ox-vq').forEach((i) => i.addEventListener('input', () => { window.oxVe.q = i.value; window.oxVeRedraw(); }));
+
+dash.draw('vch-min', (el) => {
+  const d = dash.data('vencidos');
+  if (!ox.ready(el, d, true)) return;
+  const rows = d3.rollups(oxVeFiltrar(d.data, 'min'), (v) => ({ n: v.length, por: [1, 2, 3, 4].map((o) => ({ o, n: v.filter((p) => Number(p.nivel_orden) === o).length })) }), (p) => p.ministerio)
+    .map(([k, a]) => ({ k, ...a })).sort((a, b) => b.n - a.n);
+  if (!rows.length) return ox.empty(el, 'Ningún proyecto coincide con los filtros');
+  const sel = window.oxVe.min;
+  ox.hbar(el, rows, {
+    aria: 'Vencidos por ministerio y nivel',
+    label: (r) => r.k,
+    segs: (r) => r.por.filter((s) => s.n).map((s) => ({ v: s.n, color: (!sel || sel === r.k) ? window.oxNivelColor(s.o) : 'var(--cds-chart-muted)' })),
+    text: (r) => ox.num(r.n),
+    tip: (r) => ['Crítica: ' + ox.num(r.por[0].n), 'Alta: ' + ox.num(r.por[1].n), 'Pagada sin avance: ' + ox.num(r.por[2].n), 'Media: ' + ox.num(r.por[3].n)],
+    onClick: (r) => window.oxVeSet('min', r.k),
+  });
+});
+
+dash.draw('vch-depto', (el) => {
+  const d = dash.data('vencidos');
+  if (!ox.ready(el, d, true)) return;
+  const rows = d3.rollups(oxVeFiltrar(d.data, 'depto').filter((p) => Number(p.nivel_orden) <= 2), (v) => ({
+    n: v.length, crit: d3.sum(v.filter((p) => Number(p.nivel_orden) === 1), (p) => Number(p.valor_cop)), alta: d3.sum(v.filter((p) => Number(p.nivel_orden) === 2), (p) => Number(p.valor_cop)),
+  }), (p) => p.departamento).map(([k, a]) => ({ k, ...a })).sort((a, b) => (b.crit + b.alta) - (a.crit + a.alta)).slice(0, 10);
+  if (!rows.length) return ox.empty(el, 'Ningún proyecto crítico o alto en la selección');
+  const sel = window.oxVe.depto;
+  const c = (o, k) => (!sel || sel === k) ? window.oxNivelColor(o) : 'var(--cds-chart-muted)';
+  ox.hbar(el, rows, {
+    aria: 'Departamentos con más valor en alerta',
+    label: (r) => ox.titulo(r.k),
+    segs: (r) => [{ v: r.crit, color: c(1, r.k) }, { v: r.alta, color: c(2, r.k) }].filter((s) => s.v),
+    text: (r) => ox.copCorto(r.crit + r.alta) + ' · ' + ox.num(r.n),
+    tip: (r) => ['Crítica: ' + ox.cop(r.crit), 'Alta: ' + ox.cop(r.alta), ox.num(r.n) + ' proyectos'],
+    onClick: (r) => window.oxVeSet('depto', r.k),
+  });
+});
+
+dash.draw('vcount', (el) => {
+  const d = dash.data('vencidos');
+  if (!ox.ready(el, d, false)) return;
+  el.textContent = ox.num(oxVeFiltrar(d.data).length) + ' de ' + ox.num(d.data.length) + ' proyectos';
+});
+
+dash.draw('t-venc', (tbody) => {
+  const d = dash.data('vencidos');
+  tbody.replaceChildren();
+  if (d.status !== 'ok') return;
+  const rows = oxVeFiltrar(d.data).slice().sort((a, b) => (a.nivel_orden - b.nivel_orden) || (b.valor_cop - a.valor_cop));
+  const td = (txt, cls) => { const c = document.createElement('td'); if (cls) c.className = cls; c.textContent = txt; return c; };
+  const pillCls = { 1: 'is-bad', 2: 'is-warn', 3: 'is-info', 4: 'is-ok' };
+  rows.forEach((p) => {
+    const tr = document.createElement('tr');
+    tr.dataset.key = p.id;
+    const niv = document.createElement('td');
+    const pill = document.createElement('span');
+    pill.className = 'ox-pill ' + (pillCls[p.nivel_orden] || 'is-info');
+    pill.textContent = p.nivel;
+    niv.append(pill);
+    const nom = document.createElement('td');
+    nom.className = 'ox-name';
+    const a = document.createElement('a');
+    a.href = 'https://mapainversiones.dnp.gov.co/Home/FichaProyectosMenuAllUsers?Bpin=' + encodeURIComponent(p.bpin);
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.className = 'ox-caps';
+    a.textContent = p.nombre;
+    nom.append(a);
+    tr.append(
+      niv, nom,
+      td(p.ministerio, 'ox-hide-n'),
+      td(p.municipio, 'ox-caps ox-hide-n'),
+      td(ox.copCompleto(Number(p.valor_cop)), 'ox-num ox-r'),
+      td(p.horizonte, 'ox-num ox-hide-n'),
+      td(ox.num(p.meses_vencido), 'ox-num ox-r'),
+      td(Number(p.senal_avance) > 0 ? ox.pct(Number(p.senal_avance) / 100) : '0 %', 'ox-num ox-r'),
+      td(p.pago_pct != null ? ox.pct(Number(p.pago_pct)) : '—', 'ox-num ox-r ox-hide-n'),
+      td(p.productos || '—', 'ox-hide-n'),
+    );
+    tbody.append(tr);
+  });
+});
+</script>
