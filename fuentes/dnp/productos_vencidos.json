@@ -1,0 +1,2372 @@
+{
+  "20181719000013": [
+    {
+      "Bpin": "20181719000013",
+      "IdProducto": 663492,
+      "Producto": "Puente construido en vía secundaria",
+      "Cantidad": "1,00 (Número de puentes)",
+      "Costo": "1.000.000",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Puente construido en vía secundaria existente (Meta: 1,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20181719000014": [
+    {
+      "Bpin": "20181719000014",
+      "IdProducto": 663493,
+      "Producto": "Puente construido en vía secundaria",
+      "Cantidad": "1,00 (Número de puentes)",
+      "Costo": "1.000.000",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Puente construido en vía secundaria existente (Meta: 1,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20181719000204": [
+    {
+      "Bpin": "20181719000204",
+      "IdProducto": 664598,
+      "Producto": "Placa huella construida",
+      "Cantidad": "2.936,36 (Metros lineales de vías terciaria)",
+      "Costo": "286.783.834",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 2.894,00 Metros lineales)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20181719000334": [
+    {
+      "Bpin": "20181719000334",
+      "IdProducto": 1021535,
+      "Producto": "Estudios de preinversión",
+      "Cantidad": "8,00 (Número de estudios y diseños)",
+      "Costo": "1.402.930.032",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Estudios o diseños realizados (Meta: 8,00 Número de estudios y diseños)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20181719000334",
+      "IdProducto": 857719,
+      "Producto": "Infraestructura educativa construida",
+      "Cantidad": "1,00 (Número de sedes)",
+      "Costo": "14.018.892.633",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes educativas nuevas construidas  (Meta: 1,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20181719000334",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada",
+      "Cantidad": "1,00 (Número de sedes)",
+      "Costo": "1.370.373.711",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 1,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20200214000015": [
+    {
+      "Bpin": "20200214000015",
+      "IdProducto": 663498,
+      "Producto": "Vía terciaria mejorada",
+      "Cantidad": "7,00 (Kilómetros de vías terciaria)",
+      "Costo": "5.607.566.618",
+      "Ejecutado": "75,75",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 7,00 Kilómetros)",
+      "AvanceMeta": "45,71"
+    }
+  ],
+  "20191719000019": [
+    {
+      "Bpin": "20191719000019",
+      "IdProducto": 877719,
+      "Producto": "Ambientes de formación modernizados     (Producto principal del proyecto) ",
+      "Cantidad": "28,00 (Número de ambientes de formación)",
+      "Costo": "22.173.438.167",
+      "Ejecutado": "1,27",
+      "MedidoPor": "Ambientes de formación modernizados (Meta: 28,00 Número de ambientes de formación)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20200214000080": [
+    {
+      "Bpin": "20200214000080",
+      "IdProducto": 852293,
+      "Producto": "Servicio de Información Geográfica - SIG",
+      "Cantidad": "5,90 (Kilómetros de vías terciaria)",
+      "Costo": "14.000.000",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vías regionales o urbanas inventariadas (Meta: 6,00 Kilómetros de vías terciaria)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20200214000080",
+      "IdProducto": 478614,
+      "Producto": "Vía terciaria ampliada y/o rectificada",
+      "Cantidad": "4,77 (Kilómetros de vías terciaria)",
+      "Costo": "26.891.896.638",
+      "Ejecutado": "47,12",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 5,00 Kilómetros de vías terciaria)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20200214000092": [
+    {
+      "Bpin": "20200214000092",
+      "IdProducto": 478614,
+      "Producto": "Vía terciaria ampliada y/o rectificada",
+      "Cantidad": "6,40 (Kilómetros de vías terciaria)",
+      "Costo": "26.196.569.252",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 6,00 Kilómetros de vías terciaria)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20200214000104": [
+    {
+      "Bpin": "20200214000104",
+      "IdProducto": 453423,
+      "Producto": "Vía terciaria mejorada",
+      "Cantidad": "9,30 (Kilómetros de vías terciaria)",
+      "Costo": "55.344.295.156",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 9,00 Kilómetros de vías terciaria)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20201719000002": [
+    {
+      "Bpin": "20201719000002",
+      "IdProducto": 484274,
+      "Producto": "Estudios y diseños de infraestructura educativa",
+      "Cantidad": "2,00 (Número de estudios y diseños)",
+      "Costo": "682.940.108",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Estudios y diseños de infraestructura educativa elaborados (Meta: 2,00 Número de estudios y diseños)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20201719000002",
+      "IdProducto": 857719,
+      "Producto": "Infraestructura educativa construida     (Producto principal del proyecto) ",
+      "Cantidad": "2,00 (Número de sedes)",
+      "Costo": "11.297.291.595",
+      "Ejecutado": "31,95",
+      "MedidoPor": "Sedes educativas nuevas construidas  (Meta: 2,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20201719000002",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada",
+      "Cantidad": "2,00 (Número de sedes)",
+      "Costo": "479.195.500",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 2,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20200214000081": [
+    {
+      "Bpin": "20200214000081",
+      "IdProducto": 1021535,
+      "Producto": "Estudios de preinversión",
+      "Cantidad": "1,00 (Número de estudios y diseños)",
+      "Costo": "464.854.472",
+      "Ejecutado": "50,00",
+      "MedidoPor": "Estudios o diseños realizados (Meta: 9,00 Número de estudios y diseños)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20200214000081",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada",
+      "Cantidad": "9,00 (Número de sedes)",
+      "Costo": "954.626.770",
+      "Ejecutado": "49,50",
+      "MedidoPor": "Sedes dotadas (Meta: 9,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20200214000081",
+      "IdProducto": 857720,
+      "Producto": "Infraestructura educativa mejorada",
+      "Cantidad": "9,00 (Número de sedes)",
+      "Costo": "8.583.164.832",
+      "Ejecutado": "41,87",
+      "MedidoPor": "Sedes educativas mejoradas  (Meta: 9,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20200214000082": [
+    {
+      "Bpin": "20200214000082",
+      "IdProducto": 1021535,
+      "Producto": "Estudios de preinversión",
+      "Cantidad": "1,00 (Número de estudios y diseños)",
+      "Costo": "446.004.842",
+      "Ejecutado": "50,00",
+      "MedidoPor": "Estudios o diseños realizados (Meta: 1,00 Número de estudios y diseños)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20200214000082",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada",
+      "Cantidad": "8,00 (Número de sedes)",
+      "Costo": "1.171.229.056",
+      "Ejecutado": "49,50",
+      "MedidoPor": "Sedes dotadas (Meta: 8,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20200214000082",
+      "IdProducto": 857720,
+      "Producto": "Infraestructura educativa mejorada",
+      "Cantidad": "8,00 (Número de sedes)",
+      "Costo": "10.249.123.258",
+      "Ejecutado": "41,89",
+      "MedidoPor": "Sedes educativas mejoradas  (Meta: 8,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20200214000083": [
+    {
+      "Bpin": "20200214000083",
+      "IdProducto": 664638,
+      "Producto": "Vía secundaria rehabilitada     (Producto principal del proyecto) ",
+      "Cantidad": "10,00 (Kilómetros de vías secundarias)",
+      "Costo": "16.831.292.001",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía secundaria rehabilitada  (Meta: 10,00 Kilómetros)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20200214000085": [
+    {
+      "Bpin": "20200214000085",
+      "IdProducto": 453423,
+      "Producto": "Vía terciaria mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "3,63 (Kilómetros de vías terciaria)",
+      "Costo": "36.318.792.644",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 3,63 Kilómetros de vías terciaria)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20200214000086": [
+    {
+      "Bpin": "20200214000086",
+      "IdProducto": 664639,
+      "Producto": "Vía terciaria mejorada",
+      "Cantidad": "5,00 (Kilómetros de vías terciaria)",
+      "Costo": "19.313.487.056",
+      "Ejecutado": "86,33",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 5,00 Kilómetros)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000014": [
+    {
+      "Bpin": "20210214000014",
+      "IdProducto": 695848,
+      "Producto": "Servicio apoyo financiero para la implementación de esquemas de pago por Servicio ambientales     (Producto principal del proyecto) ",
+      "Cantidad": "4.114,00 (Hectáreas de áreas)",
+      "Costo": "592.467.215",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Áreas con esquemas de Pago por Servicios Ambientales implementados (Meta: 4.114,00 Hectáreas)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20210214000014",
+      "IdProducto": 695820,
+      "Producto": "Servicio de educación informal en el marco de la conservación de la biodiversidad y los Servicio ecostémicos",
+      "Cantidad": "25,00 (Número de personas)",
+      "Costo": "212.735.800",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Personas capacitadas (Meta: 25,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000031": [
+    {
+      "Bpin": "20210214000031",
+      "IdProducto": 664559,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "23,00 (Número de sedes)",
+      "Costo": "105.170.775",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 23,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000038": [
+    {
+      "Bpin": "20210214000038",
+      "IdProducto": 1503081,
+      "Producto": "Ambientes de aprendizaje para la educación inicial preescolar, básica y media dotados     (Producto principal del proyecto) ",
+      "Cantidad": "22,00 (Número de ambientes de aprendizaje)",
+      "Costo": "1.803.644.103",
+      "Ejecutado": "17,86",
+      "MedidoPor": "Ambientes de aprendizaje dotados (Meta: 22,00 Número de ambientes de aprendizaje)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20210214000038",
+      "IdProducto": 1552167,
+      "Producto": "Servicio de fortalecimiento a las capacidades de los docentes de educación Inicial, preescolar, básica y media",
+      "Cantidad": "78,00 (Número de docentes y agentes educativos)",
+      "Costo": "2.673.295.452",
+      "Ejecutado": "16,69",
+      "MedidoPor": "Docentes y agentes educativos  de educación inicial, preescolar, básica y media beneficiados con estrategias de mejoramiento de sus capacidades (Meta: 78,00 Número de docentes y agentes educativos)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000044": [
+    {
+      "Bpin": "20210214000044",
+      "IdProducto": 886192,
+      "Producto": "Unidades de generación fotovoltaica de energía eléctrica instaladas     (Producto principal del proyecto) ",
+      "Cantidad": "52,00 (Número de unidades)",
+      "Costo": "2.636.645.726",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Unidades de generación fotovoltaica de energía eléctrica instaladas (Meta: 52,00 Número de unidades)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000045": [
+    {
+      "Bpin": "20210214000045",
+      "IdProducto": 664682,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "32,00 (Número de sedes)",
+      "Costo": "243.336.215",
+      "Ejecutado": "100,00",
+      "MedidoPor": "Sedes dotadas (Meta: 32,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000046": [
+    {
+      "Bpin": "20210214000046",
+      "IdProducto": 664561,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "16,00 (Número de sedes)",
+      "Costo": "316.773.860",
+      "Ejecutado": "100,00",
+      "MedidoPor": "Sedes dotadas (Meta: 16,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000049": [
+    {
+      "Bpin": "20210214000049",
+      "IdProducto": 664562,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "96,00 (Número de sedes)",
+      "Costo": "1.157.185.983",
+      "Ejecutado": "100,00",
+      "MedidoPor": "Sedes dotadas (Meta: 96,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000057": [
+    {
+      "Bpin": "20210214000057",
+      "IdProducto": 453423,
+      "Producto": "Vía terciaria mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "1,26 (Kilómetros de vías terciaria)",
+      "Costo": "7.830.874.612",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 1,00 Kilómetros de vías terciaria)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000061": [
+    {
+      "Bpin": "20210214000061",
+      "IdProducto": 453423,
+      "Producto": "Vía terciaria mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "0,66 (Kilómetros de vías terciaria)",
+      "Costo": "5.242.998.189",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 0,66 Kilómetros de vías terciaria)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000064": [
+    {
+      "Bpin": "20210214000064",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "69,00 (Número de sedes)",
+      "Costo": "4.423.103.660",
+      "Ejecutado": "34,58",
+      "MedidoPor": "Sedes dotadas (Meta: 69,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000068": [
+    {
+      "Bpin": "20210214000068",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "96,00 (Número de sedes)",
+      "Costo": "5.762.864.880",
+      "Ejecutado": "48,85",
+      "MedidoPor": "Sedes dotadas (Meta: 96,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000075": [
+    {
+      "Bpin": "20210214000075",
+      "IdProducto": 886192,
+      "Producto": "Unidades de generación fotovoltaica de energía eléctrica instaladas     (Producto principal del proyecto) ",
+      "Cantidad": "551,00 (Número de unidades)",
+      "Costo": "21.709.465.638",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Unidades de generación fotovoltaica de energía eléctrica instaladas (Meta: 551,00 Número de unidades)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000076": [
+    {
+      "Bpin": "20210214000076",
+      "IdProducto": 886192,
+      "Producto": "Unidades de generación fotovoltaica de energía eléctrica instaladas     (Producto principal del proyecto) ",
+      "Cantidad": "163,00 (Número de unidades)",
+      "Costo": "7.444.381.032",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Unidades de generación fotovoltaica de energía eléctrica instaladas (Meta: 163,00 Número de unidades)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000081": [
+    {
+      "Bpin": "20210214000081",
+      "IdProducto": 664527,
+      "Producto": "Unidades sanitarias con saneamiento básico construidas     (Producto principal del proyecto) ",
+      "Cantidad": "32,00 (Número de viviendas)",
+      "Costo": "786.706.007",
+      "Ejecutado": "76,43",
+      "MedidoPor": "Viviendas beneficiadas con la construcción de  unidades sanitarias  (Meta: 32,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000084": [
+    {
+      "Bpin": "20210214000084",
+      "IdProducto": 664576,
+      "Producto": "Ambientes de aprendizaje para la educación inicial preescolar, básica y media dotados     (Producto principal del proyecto) ",
+      "Cantidad": "37,00 (Número de ambientes de aprendizaje)",
+      "Costo": "245.991.277",
+      "Ejecutado": "0,05",
+      "MedidoPor": "Ambientes de aprendizaje dotados (Meta: 37,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000093": [
+    {
+      "Bpin": "20210214000093",
+      "IdProducto": 454607,
+      "Producto": "Vía secundaria mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "0,77 (Kilómetros de vías secundarias)",
+      "Costo": "11.261.086.510",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía secundaria mejorada (Meta: 0,77 Kilómetros de vías secundarias)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000101": [
+    {
+      "Bpin": "20210214000101",
+      "IdProducto": 453423,
+      "Producto": "Vía terciaria mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "8,10 (Kilómetros de vías terciaria)",
+      "Costo": "53.613.168.708",
+      "Ejecutado": "0,69",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 8,00 Kilómetros de vías terciaria)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000105": [
+    {
+      "Bpin": "20210214000105",
+      "IdProducto": 664567,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "79,00 (Número de sedes)",
+      "Costo": "15.362.900",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 79,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000107": [
+    {
+      "Bpin": "20210214000107",
+      "IdProducto": 664565,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "233,00 (Número de sedes)",
+      "Costo": "37.327.714",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 233,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000110": [
+    {
+      "Bpin": "20210214000110",
+      "IdProducto": 664495,
+      "Producto": "Edificaciones de atención a la primera infancia dotadas     (Producto principal del proyecto) ",
+      "Cantidad": "4,00 (Número de edificaciones)",
+      "Costo": "592.024.641",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Edificaciones  de atención a la primera infancia dotadas (Meta: 4,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000112": [
+    {
+      "Bpin": "20210214000112",
+      "IdProducto": 489783,
+      "Producto": "Edificaciones de atención a la primera infancia dotadas     (Producto principal del proyecto) ",
+      "Cantidad": "36,00 (Número de edificaciones)",
+      "Costo": "13.594.885.916",
+      "Ejecutado": "46,91",
+      "MedidoPor": "Edificaciones  de atención a la primera infancia dotadas (Meta: 36,00 Número de edificaciones)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000113": [
+    {
+      "Bpin": "20210214000113",
+      "IdProducto": 489783,
+      "Producto": "Edificaciones de atención a la primera infancia dotadas     (Producto principal del proyecto) ",
+      "Cantidad": "24,00 (Número de edificaciones)",
+      "Costo": "27.668.852.640",
+      "Ejecutado": "24,94",
+      "MedidoPor": "Edificaciones  de atención a la primera infancia dotadas (Meta: 25,00 Número de edificaciones)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000115": [
+    {
+      "Bpin": "20210214000115",
+      "IdProducto": 664496,
+      "Producto": "Edificaciones de atención a la primera infancia dotadas     (Producto principal del proyecto) ",
+      "Cantidad": "21,00 (Número de edificaciones)",
+      "Costo": "2.001.560.881",
+      "Ejecutado": "100,00",
+      "MedidoPor": "Edificaciones  de atención a la primera infancia dotadas (Meta: 21,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000118": [
+    {
+      "Bpin": "20210214000118",
+      "IdProducto": 664572,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "151,00 (Número de sedes)",
+      "Costo": "13.261.259.098",
+      "Ejecutado": "43,10",
+      "MedidoPor": "Sedes dotadas (Meta: 151,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20210214000118",
+      "IdProducto": 664530,
+      "Producto": "Servicio de educación informal",
+      "Cantidad": "490,00 (Número de personas)",
+      "Costo": "411.450.113",
+      "Ejecutado": "15,22",
+      "MedidoPor": "Personas beneficiadas con procesos de formación informal (Meta: 490,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000119": [
+    {
+      "Bpin": "20210214000119",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "103,00 (Número de sedes)",
+      "Costo": "14.207.821.290",
+      "Ejecutado": "35,99",
+      "MedidoPor": "Sedes dotadas (Meta: 103,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20210214000119",
+      "IdProducto": 575986,
+      "Producto": "Servicio de educación informal",
+      "Cantidad": "160,00 (Número de personas)",
+      "Costo": "497.727.840",
+      "Ejecutado": "87,03",
+      "MedidoPor": "Personas beneficiadas con procesos de formación informal (Meta: 160,00 Número de personas)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000123": [
+    {
+      "Bpin": "20210214000123",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "30,00 (Número de sedes)",
+      "Costo": "18.793.606.145",
+      "Ejecutado": "45,16",
+      "MedidoPor": "Sedes dotadas (Meta: 30,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000124": [
+    {
+      "Bpin": "20210214000124",
+      "IdProducto": 1503081,
+      "Producto": "Ambientes de aprendizaje para la educación inicial preescolar, básica y media dotados",
+      "Cantidad": "42,00 (Número de ambientes de aprendizaje)",
+      "Costo": "9.731.957.032",
+      "Ejecutado": "25,71",
+      "MedidoPor": "Ambientes de aprendizaje dotados (Meta: 42,00 Número de ambientes de aprendizaje)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20210214000124",
+      "IdProducto": 458723,
+      "Producto": "Infraestructura para educación inicial construida     (Producto principal del proyecto) ",
+      "Cantidad": "42,00 (Número de aulas)",
+      "Costo": "24.520.786.130",
+      "Ejecutado": "18,61",
+      "MedidoPor": "Aulas nuevas para la educación inicial construidas (Meta: 42,00 Número de aulas)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000127": [
+    {
+      "Bpin": "20210214000127",
+      "IdProducto": 886192,
+      "Producto": "Unidades de generación fotovoltaica de energía eléctrica instaladas     (Producto principal del proyecto) ",
+      "Cantidad": "198,00 (Número de unidades)",
+      "Costo": "9.107.526.790",
+      "Ejecutado": "31,13",
+      "MedidoPor": "Unidades de generación fotovoltaica de energía eléctrica instaladas (Meta: 198,00 Número de unidades)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000128": [
+    {
+      "Bpin": "20210214000128",
+      "IdProducto": 886192,
+      "Producto": "Unidades de generación fotovoltaica de energía eléctrica instaladas     (Producto principal del proyecto) ",
+      "Cantidad": "224,00 (Número de unidades)",
+      "Costo": "9.844.517.488",
+      "Ejecutado": "31,58",
+      "MedidoPor": "Unidades de generación fotovoltaica de energía eléctrica instaladas (Meta: 224,00 Número de unidades)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000130": [
+    {
+      "Bpin": "20210214000130",
+      "IdProducto": 489783,
+      "Producto": "Edificaciones de atención a la primera infancia dotadas     (Producto principal del proyecto) ",
+      "Cantidad": "7,00 (Número de edificaciones)",
+      "Costo": "5.663.830.220",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Edificaciones  de atención a la primera infancia dotadas (Meta: 7,00 Número de edificaciones)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000133": [
+    {
+      "Bpin": "20210214000133",
+      "IdProducto": 489783,
+      "Producto": "Edificaciones de atención a la primera infancia dotadas     (Producto principal del proyecto) ",
+      "Cantidad": "20,00 (Número de edificaciones)",
+      "Costo": "8.020.912.474",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Edificaciones  de atención a la primera infancia dotadas (Meta: 20,00 Número de edificaciones)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "2021136570084": [
+    {
+      "Bpin": "2021136570084",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "36,00 (Número de sedes)",
+      "Costo": "11.066.246.629",
+      "Ejecutado": "44,82",
+      "MedidoPor": "Sedes dotadas (Meta: 36,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000007": [
+    {
+      "Bpin": "20220214000007",
+      "IdProducto": 664452,
+      "Producto": "Unidades de generación fotovoltaica de energía eléctrica instaladas     (Producto principal del proyecto) ",
+      "Cantidad": "178,00 (Número de unidades)",
+      "Costo": "3.449.175.319",
+      "Ejecutado": "82,92",
+      "MedidoPor": "Unidades de generación fotovoltaica de energía eléctrica instaladas (Meta: 178,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000012": [
+    {
+      "Bpin": "20220214000012",
+      "IdProducto": 489783,
+      "Producto": "Edificaciones de atención a la primera infancia dotadas     (Producto principal del proyecto) ",
+      "Cantidad": "4,00 (Número de edificaciones)",
+      "Costo": "2.417.198.091",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Edificaciones  de atención a la primera infancia dotadas (Meta: 4,00 Número de edificaciones)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "2020765630110": [
+    {
+      "Bpin": "2020765630110",
+      "IdProducto": 453423,
+      "Producto": "Vía terciaria mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "1,37 (Kilómetros de vías terciaria)",
+      "Costo": "9.442.432.348",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 1,37 Kilómetros de vías terciaria)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "2022191420137": [
+    {
+      "Bpin": "2022191420137",
+      "IdProducto": 478614,
+      "Producto": "Vía terciaria ampliada y/o rectificada     (Producto principal del proyecto) ",
+      "Cantidad": "0,79 (Kilómetros de vías terciaria)",
+      "Costo": "8.799.348.076",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 1,00 Kilómetros de vías terciaria)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20200214000052": [
+    {
+      "Bpin": "20200214000052",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "3,00 (Número de sedes)",
+      "Costo": "1.800.037.654",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas con mobiliario (Meta: 3,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20200214000053": [
+    {
+      "Bpin": "20200214000053",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "6,00 (Número de sedes)",
+      "Costo": "1.494.894.626",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas con mobiliario (Meta: 6,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20201301012291": [
+    {
+      "Bpin": "20201301012291",
+      "IdProducto": 664657,
+      "Producto": "Unidades sanitarias con saneamiento básico construidas",
+      "Cantidad": "111,00 (Número de viviendas)",
+      "Costo": "3.501.989.621",
+      "Ejecutado": "92,94",
+      "MedidoPor": "Viviendas beneficiadas con la construcción de  unidades sanitarias  (Meta: 111,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000010": [
+    {
+      "Bpin": "20210214000010",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "16,00 (Número de sedes)",
+      "Costo": "2.617.342.266",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 16,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000037": [
+    {
+      "Bpin": "20210214000037",
+      "IdProducto": 664664,
+      "Producto": "Vía urbana con mantenimiento periódico o rutinario",
+      "Cantidad": "1,10 (Kilómetros de vías urbanas)",
+      "Costo": "843.625.644",
+      "Ejecutado": "87,54",
+      "MedidoPor": "Vía urbana con mantenimiento   (Meta: 1,00 Kilómetros)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20210214000037",
+      "IdProducto": 664663,
+      "Producto": "Vía urbana mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "0,06 (Kilómetros de vías urbanas)",
+      "Costo": "221.454.288",
+      "Ejecutado": "88,14",
+      "MedidoPor": "Vía urbana mejorada  (Meta: 0,06 Kilómetros)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000052": [
+    {
+      "Bpin": "20210214000052",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "33,00 (Número de sedes)",
+      "Costo": "2.218.005.940",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 33,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000079": [
+    {
+      "Bpin": "20210214000079",
+      "IdProducto": 664526,
+      "Producto": "Unidades sanitarias con saneamiento básico construidas     (Producto principal del proyecto) ",
+      "Cantidad": "32,00 (Número de viviendas)",
+      "Costo": "923.170.943",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Viviendas beneficiadas con la construcción de  unidades sanitarias  (Meta: 32,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000091": [
+    {
+      "Bpin": "20210214000091",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "19,00 (Número de sedes)",
+      "Costo": "723.039.170",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 19,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000100": [
+    {
+      "Bpin": "20210214000100",
+      "IdProducto": 664564,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "69,00 (Número de sedes)",
+      "Costo": "1.500.000.000",
+      "Ejecutado": "77,30",
+      "MedidoPor": "Sedes dotadas (Meta: 69,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20211301010771": [
+    {
+      "Bpin": "20211301010771",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "243,00 (Número de sedes)",
+      "Costo": "17.562.260.852",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 243,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20211301010850": [
+    {
+      "Bpin": "20211301010850",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "76,00 (Número de sedes)",
+      "Costo": "11.476.986.058",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 76,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000032": [
+    {
+      "Bpin": "20220214000032",
+      "IdProducto": 516720,
+      "Producto": "Estudios de pre inversión e inversión     (Producto principal del proyecto) ",
+      "Cantidad": "1,00 (Número de estudios y diseños)",
+      "Costo": "70.288.720",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Estudios o diseños realizados (Meta: 1,00 Número de estudios y diseños)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20220214000032",
+      "IdProducto": 457153,
+      "Producto": "Servicio de Aseo",
+      "Cantidad": "6.555,00 (Número de usuarios)",
+      "Costo": "3.336.593.138",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Usuarios con acceso al servicio de aseo (Meta: 6.555,00 Número de usuarios)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20220214000032",
+      "IdProducto": 2417801,
+      "Producto": "Servicio de asistencia técnica para la administración y operación de los servicios públicos domiciliarios",
+      "Cantidad": "1,00 (Número de asistencias técnicas)",
+      "Costo": "605.680.767",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Asistencias técnicas realizadas (Meta: 1,00 Número de asistencias técnicas)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000034": [
+    {
+      "Bpin": "20220214000034",
+      "IdProducto": 857720,
+      "Producto": "Infraestructura educativa mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "27,00 (Número de sedes)",
+      "Costo": "29.036.890.192",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes educativas mejoradas  (Meta: 27,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000037": [
+    {
+      "Bpin": "20220214000037",
+      "IdProducto": 664448,
+      "Producto": "Estudios de preinversión para la red vial regional",
+      "Cantidad": "15,00 (Número de estudios de preinversión)",
+      "Costo": "0",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Estudios de preinversión realizados (Meta: 15,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20220214000037",
+      "IdProducto": 664416,
+      "Producto": "Vía secundaria mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "1,23 (Kilómetros de vías secundarias)",
+      "Costo": "6.315.239.500",
+      "Ejecutado": "25,62",
+      "MedidoPor": "Vía secundaria mejorada (Meta: 1,00 Kilómetros)",
+      "AvanceMeta": "18,52"
+    },
+    {
+      "Bpin": "20220214000037",
+      "IdProducto": 664418,
+      "Producto": "Vía terciaria mejorada",
+      "Cantidad": "0,04 (Kilómetros de vías terciaria)",
+      "Costo": "139.154.070",
+      "Ejecutado": "30,38",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 0,04 Kilómetros)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000038": [
+    {
+      "Bpin": "20220214000038",
+      "IdProducto": 664447,
+      "Producto": "Estudios de preinversión para la red vial regional",
+      "Cantidad": "12,00 (Número de estudios de preinversión)",
+      "Costo": "0",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Estudios de preinversión realizados (Meta: 12,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20220214000038",
+      "IdProducto": 664425,
+      "Producto": "Sitio crítico de la red terciaria estabilizado",
+      "Cantidad": "8,00 (Número de sitios críticos)",
+      "Costo": "1.387.293.088",
+      "Ejecutado": "87,25",
+      "MedidoPor": "Sitio crítico de la red terciaria estabilizado (Meta: 8,00 Número)",
+      "AvanceMeta": "100,00"
+    },
+    {
+      "Bpin": "20220214000038",
+      "IdProducto": 664421,
+      "Producto": "Vía terciaria mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "5,30 (Kilómetros de vías terciaria)",
+      "Costo": "3.334.225.842",
+      "Ejecutado": "97,24",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 5,30 Kilómetros)",
+      "AvanceMeta": "23,53"
+    }
+  ],
+  "20220214000039": [
+    {
+      "Bpin": "20220214000039",
+      "IdProducto": 664446,
+      "Producto": "Servicio de Información Geográfica - SIG",
+      "Cantidad": "2,16 (Kilómetros de vías)",
+      "Costo": "6.454.584",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vías regionales o urbanas inventariadas (Meta: 2,00 Kilómetros)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20220214000039",
+      "IdProducto": 664422,
+      "Producto": "Vía terciaria mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "2,16 (Kilómetros de vías terciaria)",
+      "Costo": "6.772.020.087",
+      "Ejecutado": "91,54",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 2,00 Kilómetros)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000041": [
+    {
+      "Bpin": "20220214000041",
+      "IdProducto": 857720,
+      "Producto": "Infraestructura educativa mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "4,00 (Número de sedes)",
+      "Costo": "3.094.766.808",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes educativas mejoradas  (Meta: 4,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000046": [
+    {
+      "Bpin": "20220214000046",
+      "IdProducto": 1021535,
+      "Producto": "Estudios de preinversión     (Producto principal del proyecto) ",
+      "Cantidad": "6,00 (Número de estudios y diseños)",
+      "Costo": "188.020.000",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Estudios o diseños realizados (Meta: 6,00 Número de estudios y diseños)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20220214000046",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada",
+      "Cantidad": "1,00 (Número de sedes)",
+      "Costo": "306.631.513",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 1,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20220214000046",
+      "IdProducto": 857720,
+      "Producto": "Infraestructura educativa mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "1,00 (Número de sedes)",
+      "Costo": "2.559.917.796",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes educativas mejoradas  (Meta: 1,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000052": [
+    {
+      "Bpin": "20220214000052",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "5,00 (Número de sedes)",
+      "Costo": "1.420.267.317",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 5,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000053": [
+    {
+      "Bpin": "20220214000053",
+      "IdProducto": 489783,
+      "Producto": "Edificaciones de atención a la primera infancia dotadas     (Producto principal del proyecto) ",
+      "Cantidad": "10,00 (Número de edificaciones)",
+      "Costo": "9.979.012.632",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Edificaciones  de atención a la primera infancia dotadas (Meta: 10,00 Número de edificaciones)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000055": [
+    {
+      "Bpin": "20220214000055",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "4,00 (Número de sedes)",
+      "Costo": "1.241.450.554",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 4,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000056": [
+    {
+      "Bpin": "20220214000056",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "46,00 (Número de sedes)",
+      "Costo": "4.894.240.634",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 46,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000062": [
+    {
+      "Bpin": "20220214000062",
+      "IdProducto": 664442,
+      "Producto": "Vía urbana mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "0,73 (Kilómetros de vías urbanas)",
+      "Costo": "3.584.589.247",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía urbana mejorada  (Meta: 0,73 Kilómetros)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000063": [
+    {
+      "Bpin": "20220214000063",
+      "IdProducto": 1501075,
+      "Producto": "Sedes de instituciones de educación dotadas     (Producto principal del proyecto) ",
+      "Cantidad": "67,00 (Número de sedes)",
+      "Costo": "6.680.579.202",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes de instituciones de educación superior dotadas (Meta: 67,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000067": [
+    {
+      "Bpin": "20220214000067",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "5,00 (Número de sedes)",
+      "Costo": "1.859.336.637",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 5,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000068": [
+    {
+      "Bpin": "20220214000068",
+      "IdProducto": 1503824,
+      "Producto": "Ambientes de aprendizaje dotados",
+      "Cantidad": "3,00 (Número de ambientes de formación)",
+      "Costo": "428.712.210",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Ambientes de aprendizaje dotados (Meta: 3,00 Número de ambientes de formación)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20220214000068",
+      "IdProducto": 1501075,
+      "Producto": "Sedes de instituciones de educación dotadas     (Producto principal del proyecto) ",
+      "Cantidad": "24,00 (Número de sedes)",
+      "Costo": "611.192.709",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes de instituciones de educación superior dotadas (Meta: 24,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000072": [
+    {
+      "Bpin": "20220214000072",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "378,00 (Número de sedes)",
+      "Costo": "18.030.746.884",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 378,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000077": [
+    {
+      "Bpin": "20220214000077",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "81,00 (Número de sedes)",
+      "Costo": "38.302.748.694",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 81,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20220214000077",
+      "IdProducto": 1552167,
+      "Producto": "Servicio de fortalecimiento a las capacidades de los docentes de educación Inicial, preescolar, básica y media     (Producto principal del proyecto) ",
+      "Cantidad": "361,00 (Número de docentes y agentes educativos)",
+      "Costo": "1.297.457.016",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Docentes y agentes educativos  de educación inicial, preescolar, básica y media beneficiados con estrategias de mejoramiento de sus capacidades (Meta: 361,00 Número de docentes y agentes educativos)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000080": [
+    {
+      "Bpin": "20220214000080",
+      "IdProducto": 664461,
+      "Producto": "Infraestructura educativa dotada",
+      "Cantidad": "49,00 (Número de sedes)",
+      "Costo": "9.811.744.299",
+      "Ejecutado": "90,89",
+      "MedidoPor": "Sedes dotadas (Meta: 49,00 Número)",
+      "AvanceMeta": "100,00"
+    },
+    {
+      "Bpin": "20220214000080",
+      "IdProducto": 664486,
+      "Producto": "Servicio de fortalecimiento a las capacidades de los docentes de educación Inicial, preescolar, básica y media     (Producto principal del proyecto) ",
+      "Cantidad": "187,00 (Número de docentes y agentes educativos)",
+      "Costo": "548.738.575",
+      "Ejecutado": "44,26",
+      "MedidoPor": "Docentes y agentes educativos  de educación inicial, preescolar, básica y media beneficiados con estrategias de mejoramiento de sus capacidades (Meta: 187,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20220214000086": [
+    {
+      "Bpin": "20220214000086",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "91,00 (Número de sedes)",
+      "Costo": "7.311.488.716",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 91,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20220214000086",
+      "IdProducto": 1552167,
+      "Producto": "Servicio de fortalecimiento a las capacidades de los docentes de educación Inicial, preescolar, básica y media",
+      "Cantidad": "151,00 (Número de docentes y agentes educativos)",
+      "Costo": "1.166.600.000",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Docentes y agentes educativos  de educación inicial, preescolar, básica y media beneficiados con estrategias de mejoramiento de sus capacidades (Meta: 151,00 Número de docentes y agentes educativos)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20230214000001": [
+    {
+      "Bpin": "20230214000001",
+      "IdProducto": 886192,
+      "Producto": "Unidades de generación fotovoltaica de energía eléctrica instaladas     (Producto principal del proyecto) ",
+      "Cantidad": "36,00 (Número de unidades)",
+      "Costo": "3.645.741.798",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Unidades de generación fotovoltaica de energía eléctrica instaladas (Meta: 36,00 Número de unidades)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "2022200450014": [
+    {
+      "Bpin": "2022200450014",
+      "IdProducto": 664380,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "53,00 (Número de sedes)",
+      "Costo": "2.235.970.871",
+      "Ejecutado": "46,38",
+      "MedidoPor": "Sedes dotadas (Meta: 53,00 Número)",
+      "AvanceMeta": "90,57"
+    }
+  ],
+  "2020004730003": [
+    {
+      "Bpin": "2020004730003",
+      "IdProducto": 463175,
+      "Producto": "Servicio de atención en salud publica de baja complejidad",
+      "Cantidad": "22.818,00 (número de pacientes atendidos en servicios de salud de baja complejidad)",
+      "Costo": "358.524.000",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Pacientes atendidos en Servicio de salud de baja complejidad  (Meta: 22.818,00 número de pacientes atendidos en servicios de salud de baja complejidad)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20230214000055": [
+    {
+      "Bpin": "20230214000055",
+      "IdProducto": 1767926,
+      "Producto": "Servicio de atención a emergencias y desastres     (Producto principal del proyecto) ",
+      "Cantidad": "5,00 (Número de emergencias)",
+      "Costo": "169.281.960.120",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Organismos de atención de emergencias equipados (Meta: 5,00 Número de emergencias)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20230214000017": [
+    {
+      "Bpin": "20230214000017",
+      "IdProducto": 664370,
+      "Producto": "Redes domiciliarias de gas combustible instaladas     (Producto principal del proyecto) ",
+      "Cantidad": "2.148,00 (Número de viviendas)",
+      "Costo": "5.384.959.724",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Viviendas conectadas a la red local de gas combustible (Meta: 2.148,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "2024051540003": [
+    {
+      "Bpin": "2024051540003",
+      "IdProducto": 664031,
+      "Producto": "Alcantarillados optimizados     (Producto principal del proyecto) ",
+      "Cantidad": "1,00 (Número de alcantarillados)",
+      "Costo": "1.092.354.379",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Alcantarillados optimizados (Meta: 1,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20230214000043": [
+    {
+      "Bpin": "20230214000043",
+      "IdProducto": 664384,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "106,00 (Número de sedes)",
+      "Costo": "1.975.014.751",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 106,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20230214000043",
+      "IdProducto": 664322,
+      "Producto": "Servicio de fomento para el acceso a la educación inicial, preescolar, básica y media.",
+      "Cantidad": "50,00 (Número de personas)",
+      "Costo": "113.799.875",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Personas beneficiadas con estrategias de fomento para el acceso a la educación inicial, preescolar, básica y media.  (Meta: 50,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20210214000006": [
+    {
+      "Bpin": "20210214000006",
+      "IdProducto": 453423,
+      "Producto": "Vía terciaria mejorada",
+      "Cantidad": "0,77 (Kilómetros de vías terciaria)",
+      "Costo": "2.685.030.729",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 0,77 Kilómetros de vías terciaria)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20230214000025": [
+    {
+      "Bpin": "20230214000025",
+      "IdProducto": 664362,
+      "Producto": "Servicio de Información Geográfica - SIG",
+      "Cantidad": "7,93 (Kilómetros de vías)",
+      "Costo": "361.818.369",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vías regionales o urbanas inventariadas (Meta: 7,93 Kilómetros)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20230214000025",
+      "IdProducto": 664328,
+      "Producto": "Vía terciaria mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "0,38 (Kilómetros de vías terciaria)",
+      "Costo": "2.036.808.010",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 0,38 Kilómetros)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20230214000120": [
+    {
+      "Bpin": "20230214000120",
+      "IdProducto": 1227593,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "35,00 (Número de sedes)",
+      "Costo": "4.055.647.080",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 35,00 Número de sedes)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20230214000030": [
+    {
+      "Bpin": "20230214000030",
+      "IdProducto": 664327,
+      "Producto": "Vía terciaria mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "0,89 (Kilómetros de vías terciaria)",
+      "Costo": "5.285.129.053",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 0,89 Kilómetros)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20230214000088": [
+    {
+      "Bpin": "20230214000088",
+      "IdProducto": 664252,
+      "Producto": "Vía terciaria ampliada y/o rectificada     (Producto principal del proyecto) ",
+      "Cantidad": "4,20 (Kilómetros de vías terciaria)",
+      "Costo": "4.644.207.322",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 4,20 Kilómetros)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000059": [
+    {
+      "Bpin": "20240214000059",
+      "IdProducto": 664209,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "26,00 (Número de sedes)",
+      "Costo": "537.539.933",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 26,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000059",
+      "IdProducto": 664166,
+      "Producto": "Servicio de fomento para el acceso a la educación inicial, preescolar, básica y media.",
+      "Cantidad": "4,00 (Número de personas)",
+      "Costo": "214.845.174",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Personas beneficiadas con estrategias de fomento para el acceso a la educación inicial, preescolar, básica y media.  (Meta: 4,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20230214000122": [
+    {
+      "Bpin": "20230214000122",
+      "IdProducto": 664275,
+      "Producto": "Redes domiciliarias de gas combustible instaladas     (Producto principal del proyecto) ",
+      "Cantidad": "195,00 (Número de viviendas)",
+      "Costo": "267.166.578",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Viviendas conectadas a la red local de gas combustible (Meta: 195,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20230214000122",
+      "IdProducto": 664274,
+      "Producto": "Redes internas de gas combustible instaladas",
+      "Cantidad": "195,00 (Número de viviendas)",
+      "Costo": "217.586.265",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Viviendas con red interna de gas combustible instalada (Meta: 195,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000033": [
+    {
+      "Bpin": "20240214000033",
+      "IdProducto": 664187,
+      "Producto": "Servicio de Información Geográfica - SIG",
+      "Cantidad": "9,34 (Kilómetros de vías)",
+      "Costo": "4.773.314",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vías regionales o urbanas inventariadas (Meta: 9,34 Kilómetros)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000033",
+      "IdProducto": 664170,
+      "Producto": "Vía terciaria mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "1,12 (Kilómetros de vías terciaria)",
+      "Costo": "6.085.086.286",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 1,12 Kilómetros)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20200214000065": [
+    {
+      "Bpin": "20200214000065",
+      "IdProducto": 664615,
+      "Producto": "Servicio de apoyo a la prestación del servicio de transporte de pacientes",
+      "Cantidad": "1,00 (Número de entidades)",
+      "Costo": "356.913.840",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Entidades de la red pública en salud apoyadas en la adquisición de ambulancias (Meta: 1,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000148": [
+    {
+      "Bpin": "20240214000148",
+      "IdProducto": 664156,
+      "Producto": "Servicio apoyo financiero para la implementación de esquemas de pago por Servicio ambientales     (Producto principal del proyecto) ",
+      "Cantidad": "636,00 (Hectáreas de áreas)",
+      "Costo": "9.037.287.003",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Áreas con esquemas de Pago por Servicios Ambientales implementados (Meta: 636,00 Hectáreas)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000148",
+      "IdProducto": 664100,
+      "Producto": "Servicio de educación informal en el marco de la conservación de la biodiversidad y los Servicio ecostémicos",
+      "Cantidad": "1.100,00 (Número de personas)",
+      "Costo": "823.654.142",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Personas capacitadas (Meta: 1.100,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000148",
+      "IdProducto": 664108,
+      "Producto": "Servicio de producción de plántulas en viveros",
+      "Cantidad": "4.000,00 (Número de plántulas )",
+      "Costo": "459.130.595",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Plántulas producidas (Meta: 4.000,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000150": [
+    {
+      "Bpin": "20240214000150",
+      "IdProducto": 664157,
+      "Producto": "Servicio apoyo financiero para la implementación de esquemas de pago por Servicio ambientales     (Producto principal del proyecto) ",
+      "Cantidad": "636,00 (Hectáreas de áreas)",
+      "Costo": "9.037.287.003",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Áreas con esquemas de Pago por Servicios Ambientales implementados (Meta: 636,00 Hectáreas)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000150",
+      "IdProducto": 664101,
+      "Producto": "Servicio de educación informal en el marco de la conservación de la biodiversidad y los Servicio ecostémicos",
+      "Cantidad": "1.100,00 (Número de personas)",
+      "Costo": "823.654.142",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Personas capacitadas (Meta: 1.100,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000150",
+      "IdProducto": 664109,
+      "Producto": "Servicio de producción de plántulas en viveros",
+      "Cantidad": "4.000,00 (Número de plántulas )",
+      "Costo": "459.130.595",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Plántulas producidas (Meta: 4.000,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000142": [
+    {
+      "Bpin": "20240214000142",
+      "IdProducto": 664140,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "318,00 (Número de sedes)",
+      "Costo": "21.296.934.055",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 318,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000146": [
+    {
+      "Bpin": "20240214000146",
+      "IdProducto": 664142,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "16,00 (Número de sedes)",
+      "Costo": "1.544.865.198",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 16,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000065": [
+    {
+      "Bpin": "20240214000065",
+      "IdProducto": 664214,
+      "Producto": "Ambientes de aprendizaje para la educación inicial preescolar, básica y media dotados     (Producto principal del proyecto) ",
+      "Cantidad": "13,00 (Número de ambientes de aprendizaje)",
+      "Costo": "787.985.800",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Ambientes de aprendizaje dotados (Meta: 13,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000065",
+      "IdProducto": 664184,
+      "Producto": "Servicio de educación informal",
+      "Cantidad": "60,00 (Número de personas)",
+      "Costo": "173.595.000",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Personas beneficiadas con procesos de formación informal (Meta: 60,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000066": [
+    {
+      "Bpin": "20240214000066",
+      "IdProducto": 664199,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "20,00 (Número de sedes)",
+      "Costo": "1.529.610.900",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 20,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000066",
+      "IdProducto": 664218,
+      "Producto": "Servicio de fortalecimiento a las capacidades de los docentes de educación Inicial, preescolar, básica y media",
+      "Cantidad": "123,00 (Número de docentes y agentes educativos)",
+      "Costo": "341.745.000",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Docentes y agentes educativos  de educación inicial, preescolar, básica y media beneficiados con estrategias de mejoramiento de sus capacidades (Meta: 123,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000164": [
+    {
+      "Bpin": "20240214000164",
+      "IdProducto": 664092,
+      "Producto": "Serviciode apoyo financiero para dotar el servicios de salud conforme con estándares de habilitación     (Producto principal del proyecto) ",
+      "Cantidad": "147,00 (Número de dotaciones)",
+      "Costo": "8.476.467.805",
+      "Ejecutado": "47,56",
+      "MedidoPor": "Dotación de conformidad con estándares de habilitación (Meta: 147,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000147": [
+    {
+      "Bpin": "20240214000147",
+      "IdProducto": 664150,
+      "Producto": "Ambientes de aprendizaje para la educación inicial preescolar, básica y media dotados     (Producto principal del proyecto) ",
+      "Cantidad": "113,00 (Número de ambientes de aprendizaje)",
+      "Costo": "5.663.156.883",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Ambientes de aprendizaje dotados (Meta: 113,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000175": [
+    {
+      "Bpin": "20240214000175",
+      "IdProducto": 664131,
+      "Producto": "Unidades de generación fotovoltaica de energía eléctrica instaladas     (Producto principal del proyecto) ",
+      "Cantidad": "81,00 (Número de unidades)",
+      "Costo": "3.639.605.749",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Unidades de generación fotovoltaica de energía eléctrica instaladas (Meta: 81,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20230214000023": [
+    {
+      "Bpin": "20230214000023",
+      "IdProducto": 664379,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "15,00 (Número de sedes)",
+      "Costo": "7.434.716.600",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 15,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20230214000023",
+      "IdProducto": 664355,
+      "Producto": "Servicio de educación informal",
+      "Cantidad": "158,00 (Número de personas)",
+      "Costo": "154.910.800",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Personas beneficiadas con procesos de formación informal (Meta: 158,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000151": [
+    {
+      "Bpin": "20240214000151",
+      "IdProducto": 664143,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "138,00 (Número de sedes)",
+      "Costo": "14.462.809.696",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 138,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000144": [
+    {
+      "Bpin": "20240214000144",
+      "IdProducto": 664138,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "22,00 (Número de sedes)",
+      "Costo": "1.915.410.800",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 22,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000144",
+      "IdProducto": 664151,
+      "Producto": "Servicio de fortalecimiento a las capacidades de los docentes de educación Inicial, preescolar, básica y media",
+      "Cantidad": "101,00 (Número de docentes y agentes educativos)",
+      "Costo": "322.665.000",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Docentes y agentes educativos  de educación inicial, preescolar, básica y media beneficiados con estrategias de mejoramiento de sus capacidades (Meta: 101,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000180": [
+    {
+      "Bpin": "20240214000180",
+      "IdProducto": 664126,
+      "Producto": "Unidades de generación fotovoltaica de energía eléctrica instaladas     (Producto principal del proyecto) ",
+      "Cantidad": "129,00 (Número de unidades)",
+      "Costo": "5.438.104.449",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Unidades de generación fotovoltaica de energía eléctrica instaladas (Meta: 129,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000067": [
+    {
+      "Bpin": "20240214000067",
+      "IdProducto": 664210,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "58,00 (Número de sedes)",
+      "Costo": "1.136.265.543",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 58,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000067",
+      "IdProducto": 664222,
+      "Producto": "Servicio de fortalecimiento a las capacidades de los docentes de educación Inicial, preescolar, básica y media",
+      "Cantidad": "20,00 (Número de docentes y agentes educativos)",
+      "Costo": "150.799.855",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Docentes y agentes educativos  de educación inicial, preescolar, básica y media beneficiados con estrategias de mejoramiento de sus capacidades (Meta: 20,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20230214000040": [
+    {
+      "Bpin": "20230214000040",
+      "IdProducto": 664375,
+      "Producto": "Estudios de preinversión",
+      "Cantidad": "1,00 (Número de estudios y diseños)",
+      "Costo": "130.757.558",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Estudios o diseños realizados (Meta: 1,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20230214000040",
+      "IdProducto": 664357,
+      "Producto": "Infraestructura educativa construida",
+      "Cantidad": "1,00 (Número de sedes)",
+      "Costo": "7.037.837.130",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes educativas nuevas construidas  (Meta: 1,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20230214000040",
+      "IdProducto": 664360,
+      "Producto": "Infraestructura educativa mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "1,00 (Número de sedes)",
+      "Costo": "795.517.824",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes educativas mejoradas  (Meta: 1,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20230214000115": [
+    {
+      "Bpin": "20230214000115",
+      "IdProducto": 664288,
+      "Producto": "Ambientes de aprendizaje para la educación inicial preescolar, básica y media dotados     (Producto principal del proyecto) ",
+      "Cantidad": "277,00 (Número de ambientes de aprendizaje)",
+      "Costo": "6.611.665.297",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Ambientes de aprendizaje dotados (Meta: 277,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20230214000115",
+      "IdProducto": 664290,
+      "Producto": "Servicio de fortalecimiento a las capacidades de los docentes de educación Inicial, preescolar, básica y media",
+      "Cantidad": "277,00 (Número de docentes y agentes educativos)",
+      "Costo": "1.411.157.110",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Docentes y agentes educativos  de educación inicial, preescolar, básica y media beneficiados con estrategias de mejoramiento de sus capacidades (Meta: 277,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000203": [
+    {
+      "Bpin": "20240214000203",
+      "IdProducto": 664072,
+      "Producto": "Ambientes de aprendizaje para la educación inicial preescolar, básica y media dotados     (Producto principal del proyecto) ",
+      "Cantidad": "12,00 (Número de ambientes de aprendizaje)",
+      "Costo": "2.091.022.227",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Ambientes de aprendizaje dotados (Meta: 12,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000203",
+      "IdProducto": 664074,
+      "Producto": "Servicio de fortalecimiento a las capacidades de los docentes de educación Inicial, preescolar, básica y media",
+      "Cantidad": "30,00 (Número de docentes y agentes educativos)",
+      "Costo": "107.289.295",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Docentes y agentes educativos  de educación inicial, preescolar, básica y media beneficiados con estrategias de mejoramiento de sus capacidades (Meta: 30,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000161": [
+    {
+      "Bpin": "20240214000161",
+      "IdProducto": 664116,
+      "Producto": "Estudios de preinversión para la red vial regional     (Producto principal del proyecto) ",
+      "Cantidad": "12,00 (Número de estudios de preinversión)",
+      "Costo": "193.330.970",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Estudios de preinversión realizados (Meta: 12,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000161",
+      "IdProducto": 664097,
+      "Producto": "Puente construido en vía terciaria",
+      "Cantidad": "1,00 (Número de puentes)",
+      "Costo": "4.203.172.624",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Puente construido en vía terciaria existente (Meta: 1,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000205": [
+    {
+      "Bpin": "20240214000205",
+      "IdProducto": 664096,
+      "Producto": "Vía terciaria mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "1,25 (Kilómetros de vías terciaria)",
+      "Costo": "5.503.278.324",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 1,25 Kilómetros)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000273": [
+    {
+      "Bpin": "20240214000273",
+      "IdProducto": 664041,
+      "Producto": "Servicio de Información Geográfica - SIG",
+      "Cantidad": "2,80 (Kilómetros de vías)",
+      "Costo": "3.027.562",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vías regionales o urbanas inventariadas (Meta: 2,80 Kilómetros)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000273",
+      "IdProducto": 664010,
+      "Producto": "Vía secundaria mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "2,80 (Kilómetros de vías secundarias)",
+      "Costo": "15.336.892.207",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía secundaria mejorada (Meta: 2,80 Kilómetros)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20230214000104": [
+    {
+      "Bpin": "20230214000104",
+      "IdProducto": 664267,
+      "Producto": "Infraestructura educativa construida     (Producto principal del proyecto) ",
+      "Cantidad": "1,00 (Número de sedes)",
+      "Costo": "38.705.542.467",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes educativas nuevas construidas  (Meta: 1,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000163": [
+    {
+      "Bpin": "20240214000163",
+      "IdProducto": 664117,
+      "Producto": "Estudios de preinversión para la red vial regional     (Producto principal del proyecto) ",
+      "Cantidad": "12,00 (Número de estudios de preinversión)",
+      "Costo": "435.695.890",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Estudios de preinversión realizados (Meta: 12,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000163",
+      "IdProducto": 664098,
+      "Producto": "Puente de vía urbana rehabilitado",
+      "Cantidad": "4,00 (Número de puentes)",
+      "Costo": "3.000.000.000",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Puente de vía urbana rehabilitado  (Meta: 4,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000163",
+      "IdProducto": 664099,
+      "Producto": "Sitio crítico de la red terciaria estabilizado",
+      "Cantidad": "2,00 (Número de sitios críticos)",
+      "Costo": "451.665.647",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sitio crítico de la red terciaria estabilizado (Meta: 2,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000163",
+      "IdProducto": 664112,
+      "Producto": "Vía urbana rehabilitada",
+      "Cantidad": "0,06 (Kilómetros de vías urbanas)",
+      "Costo": "2.890.583.085",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía urbana rehabilitada  (Meta: 0,06 Kilómetros)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20250214000018": [
+    {
+      "Bpin": "20250214000018",
+      "IdProducto": 696002,
+      "Producto": "Servicio de atención integral a la primera infancia     (Producto principal del proyecto) ",
+      "Cantidad": "120,00 (Número de niños y niñas)",
+      "Costo": "1.689.928.751",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Niños y niñas atendidos en Servicio integrales (Meta: 120,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20250214000045": [
+    {
+      "Bpin": "20250214000045",
+      "IdProducto": 696004,
+      "Producto": "Servicio de atención integral a la primera infancia     (Producto principal del proyecto) ",
+      "Cantidad": "80,00 (Número de niños y niñas)",
+      "Costo": "1.283.935.947",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Niños y niñas atendidos en Servicio integrales (Meta: 80,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20250214000099": [
+    {
+      "Bpin": "20250214000099",
+      "IdProducto": 663784,
+      "Producto": "Unidades de generación fotovoltaica de energía eléctrica instaladas     (Producto principal del proyecto) ",
+      "Cantidad": "231,00 (Número de unidades)",
+      "Costo": "14.066.155.845",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Unidades de generación fotovoltaica de energía eléctrica instaladas (Meta: 231,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000185": [
+    {
+      "Bpin": "20240214000185",
+      "IdProducto": 664145,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "50,00 (Número de sedes)",
+      "Costo": "2.259.072.089",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 50,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000185",
+      "IdProducto": 664107,
+      "Producto": "Servicio de educación informal",
+      "Cantidad": "50,00 (Número de personas)",
+      "Costo": "790.533.007",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Personas beneficiadas con procesos de formación informal (Meta: 50,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000237": [
+    {
+      "Bpin": "20240214000237",
+      "IdProducto": 664039,
+      "Producto": "Servicio de Información Geográfica - SIG",
+      "Cantidad": "2,00 (Kilómetros de vías)",
+      "Costo": "3.292.773",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vías regionales o urbanas inventariadas (Meta: 2,00 Kilómetros)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000237",
+      "IdProducto": 664014,
+      "Producto": "Vía terciaria mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "0,72 (Kilómetros de vías terciaria)",
+      "Costo": "2.542.128.481",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 0,72 Kilómetros)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000261": [
+    {
+      "Bpin": "20240214000261",
+      "IdProducto": 664043,
+      "Producto": "Servicio de Información Geográfica - SIG",
+      "Cantidad": "13,00 (Kilómetros de vías)",
+      "Costo": "18.554.757",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vías regionales o urbanas inventariadas (Meta: 13,00 Kilómetros)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000261",
+      "IdProducto": 664016,
+      "Producto": "Vía terciaria mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "0,49 (Kilómetros de vías terciaria)",
+      "Costo": "2.898.556.639",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 0,49 Kilómetros)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000225": [
+    {
+      "Bpin": "20240214000225",
+      "IdProducto": 664057,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "65,00 (Número de sedes)",
+      "Costo": "2.726.985.919",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 65,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000225",
+      "IdProducto": 664076,
+      "Producto": "Servicio de fortalecimiento a las capacidades de los docentes de educación Inicial, preescolar, básica y media",
+      "Cantidad": "65,00 (Número de docentes y agentes educativos)",
+      "Costo": "170.213.117",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Docentes y agentes educativos  de educación inicial, preescolar, básica y media beneficiados con estrategias de mejoramiento de sus capacidades (Meta: 65,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20250214000026": [
+    {
+      "Bpin": "20250214000026",
+      "IdProducto": 663794,
+      "Producto": "Ambientes de aprendizaje para la educación inicial preescolar, básica y media dotados     (Producto principal del proyecto) ",
+      "Cantidad": "350,00 (Número de ambientes de aprendizaje)",
+      "Costo": "7.851.700.841",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Ambientes de aprendizaje dotados (Meta: 350,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20250214000026",
+      "IdProducto": 663795,
+      "Producto": "Servicio de fortalecimiento a las capacidades de los docentes de educación Inicial, preescolar, básica y media",
+      "Cantidad": "350,00 (Número de docentes y agentes educativos)",
+      "Costo": "1.016.400.000",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Docentes y agentes educativos  de educación inicial, preescolar, básica y media beneficiados con estrategias de mejoramiento de sus capacidades (Meta: 350,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20250214000111": [
+    {
+      "Bpin": "20250214000111",
+      "IdProducto": 663785,
+      "Producto": "Unidades de generación fotovoltaica de energía eléctrica instaladas     (Producto principal del proyecto) ",
+      "Cantidad": "98,00 (Número de unidades)",
+      "Costo": "4.786.796.647",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Unidades de generación fotovoltaica de energía eléctrica instaladas (Meta: 98,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000243": [
+    {
+      "Bpin": "20240214000243",
+      "IdProducto": 664037,
+      "Producto": "Servicio de Información Geográfica - SIG",
+      "Cantidad": "26,00 (Kilómetros de vías)",
+      "Costo": "22.911.284",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vías regionales o urbanas inventariadas (Meta: 26,00 Kilómetros)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20240214000243",
+      "IdProducto": 664011,
+      "Producto": "Vía terciaria construida     (Producto principal del proyecto) ",
+      "Cantidad": "2,00 (Kilómetros de vías terciaria)",
+      "Costo": "5.191.529.210",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía terciaria construida  (Meta: 2,00 Kilómetros)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20250214000022": [
+    {
+      "Bpin": "20250214000022",
+      "IdProducto": 663765,
+      "Producto": "Vía terciaria mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "0,70 (Kilómetros de vías terciaria)",
+      "Costo": "6.000.000.000",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 0,70 Kilómetros)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000138": [
+    {
+      "Bpin": "20240214000138",
+      "IdProducto": 664141,
+      "Producto": "Infraestructura educativa dotada     (Producto principal del proyecto) ",
+      "Cantidad": "14,00 (Número de sedes)",
+      "Costo": "1.070.153.584",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Sedes dotadas (Meta: 14,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20250214000036": [
+    {
+      "Bpin": "20250214000036",
+      "IdProducto": 663816,
+      "Producto": "Servicio apoyo financiero para la implementación de esquemas de pago por Servicio ambientales     (Producto principal del proyecto) ",
+      "Cantidad": "277,00 (Hectáreas de áreas)",
+      "Costo": "5.781.598.183",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Áreas con esquemas de Pago por Servicios Ambientales implementados (Meta: 277,00 Hectáreas)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20250214000036",
+      "IdProducto": 663771,
+      "Producto": "Servicio de educación informal en el marco de la conservación de la biodiversidad y los Servicio ecostémicos",
+      "Cantidad": "1.500,00 (Número de personas)",
+      "Costo": "1.051.570.644",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Personas capacitadas (Meta: 1.500,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20250214000036",
+      "IdProducto": 663778,
+      "Producto": "Servicio de producción de plántulas en viveros",
+      "Cantidad": "5.000,00 (Número de plántulas )",
+      "Costo": "606.299.596",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Plántulas producidas (Meta: 5.000,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20250214000063": [
+    {
+      "Bpin": "20250214000063",
+      "IdProducto": 663815,
+      "Producto": "Servicio apoyo financiero para la implementación de esquemas de pago por Servicio ambientales     (Producto principal del proyecto) ",
+      "Cantidad": "2.752,00 (Hectáreas de áreas)",
+      "Costo": "10.586.399.546",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Áreas con esquemas de Pago por Servicios Ambientales implementados (Meta: 2.752,00 Hectáreas)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20250214000063",
+      "IdProducto": 663770,
+      "Producto": "Servicio de educación informal en el marco de la conservación de la biodiversidad y los Servicio ecostémicos",
+      "Cantidad": "500,00 (Número de personas)",
+      "Costo": "1.362.961.761",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Personas capacitadas (Meta: 500,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20250214000063",
+      "IdProducto": 663826,
+      "Producto": "Servicio de recuperación de ecosistemas",
+      "Cantidad": "280,00 (Hectáreas de áreas)",
+      "Costo": "3.204.284.534",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Áreas en proceso de recuperación de cobertura vegetal (Meta: 280,00 Hectáreas)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "2024255800001": [
+    {
+      "Bpin": "2024255800001",
+      "IdProducto": 696060,
+      "Producto": "Servicio de atención a emergencias y desastres     (Producto principal del proyecto) ",
+      "Cantidad": "1,00 (Número de emergencias)",
+      "Costo": "3.466.471.490",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Emergencias y desastres atendidas (Meta: 1,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20250214000120": [
+    {
+      "Bpin": "20250214000120",
+      "IdProducto": 663786,
+      "Producto": "Unidades de generación fotovoltaica de energía eléctrica instaladas     (Producto principal del proyecto) ",
+      "Cantidad": "362,00 (Número de unidades)",
+      "Costo": "12.149.743.567",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Unidades de generación fotovoltaica de energía eléctrica instaladas (Meta: 362,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20240214000186": [
+    {
+      "Bpin": "20240214000186",
+      "IdProducto": 664155,
+      "Producto": "Servicio de fortalecimiento a las salas de crisis territorial     (Producto principal del proyecto) ",
+      "Cantidad": "8,00 (Número de organismos)",
+      "Costo": "2.532.211.000",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Organismos de atención de emergencias fortalecidos (Meta: 8,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20250214000148": [
+    {
+      "Bpin": "20250214000148",
+      "IdProducto": 663783,
+      "Producto": "Redes domiciliarias de gas combustible instaladas     (Producto principal del proyecto) ",
+      "Cantidad": "307,00 (Número de viviendas)",
+      "Costo": "458.714.173",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Viviendas conectadas a la red local de gas combustible (Meta: 307,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20250214000148",
+      "IdProducto": 663782,
+      "Producto": "Redes internas de gas combustible instaladas",
+      "Cantidad": "307,00 (Número de viviendas)",
+      "Costo": "386.773.950",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Viviendas con red interna de gas combustible instalada (Meta: 307,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20250214000083": [
+    {
+      "Bpin": "20250214000083",
+      "IdProducto": 663825,
+      "Producto": "Servicio prevención y control de incendios     (Producto principal del proyecto) ",
+      "Cantidad": "3,00 (Número de cuerpos de bomberos)",
+      "Costo": "2.044.039.563",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Cuerpos de bomberos disponibles para la prevención y control de incendios en la entidad territorial (Meta: 3,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20250214000118": [
+    {
+      "Bpin": "20250214000118",
+      "IdProducto": 696133,
+      "Producto": "Unidades de generación fotovoltaica de energía eléctrica instaladas     (Producto principal del proyecto) ",
+      "Cantidad": "31,00 (Número de unidades)",
+      "Costo": "3.296.533.790",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Unidades de generación fotovoltaica de energía eléctrica instaladas (Meta: 31,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20250214000021": [
+    {
+      "Bpin": "20250214000021",
+      "IdProducto": 696070,
+      "Producto": "Servicio de atención a emergencias y desastres     (Producto principal del proyecto) ",
+      "Cantidad": "1,00 (Número de emergencias)",
+      "Costo": "1.962.966.120",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Emergencias y desastres atendidas (Meta: 1,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20250214000203": [
+    {
+      "Bpin": "20250214000203",
+      "IdProducto": 696155,
+      "Producto": "Servicio de atención a emergencias y desastres     (Producto principal del proyecto) ",
+      "Cantidad": "1,00 (Número de emergencias)",
+      "Costo": "2.928.090.513",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Emergencias y desastres atendidas (Meta: 1,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20250214000206": [
+    {
+      "Bpin": "20250214000206",
+      "IdProducto": 696150,
+      "Producto": "Servicio de atención a emergencias y desastres     (Producto principal del proyecto) ",
+      "Cantidad": "1,00 (Número de emergencias)",
+      "Costo": "3.498.754.697",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Emergencias y desastres atendidas (Meta: 1,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20250214000210": [
+    {
+      "Bpin": "20250214000210",
+      "IdProducto": 663801,
+      "Producto": "Servicio de atención a emergencias y desastres     (Producto principal del proyecto) ",
+      "Cantidad": "1,00 (Número de emergencias)",
+      "Costo": "3.664.138.886",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Emergencias y desastres atendidas (Meta: 1,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20230214000045": [
+    {
+      "Bpin": "20230214000045",
+      "IdProducto": 695892,
+      "Producto": "Estudios de preinversión para la red vial regional",
+      "Cantidad": "1,00 (Número de estudios de preinversión)",
+      "Costo": "651.447.463",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Estudios de preinversión realizados (Meta: 1,00 Número)",
+      "AvanceMeta": "0,00"
+    },
+    {
+      "Bpin": "20230214000045",
+      "IdProducto": 695864,
+      "Producto": "Vía terciaria mejorada     (Producto principal del proyecto) ",
+      "Cantidad": "7,88 (Kilómetros de vías terciaria)",
+      "Costo": "21.591.762.512",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Vía terciaria mejorada (Meta: 7,88 Kilómetros)",
+      "AvanceMeta": "0,00"
+    }
+  ],
+  "20250214000209": [
+    {
+      "Bpin": "20250214000209",
+      "IdProducto": 663800,
+      "Producto": "Servicio de atención a emergencias y desastres     (Producto principal del proyecto) ",
+      "Cantidad": "1,00 (Número de emergencias)",
+      "Costo": "4.801.693.670",
+      "Ejecutado": "0,00",
+      "MedidoPor": "Emergencias y desastres atendidas (Meta: 1,00 Número)",
+      "AvanceMeta": "0,00"
+    }
+  ]
+}
